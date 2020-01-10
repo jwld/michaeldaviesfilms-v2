@@ -23,7 +23,6 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.17.0",
     "gh-pages": "^2.2.0",
-    "html-webpack-plugin": "^3.2.0",
     "prettier": "^1.19.1",
     "webpack": "^4.41.5",
     "webpack-bundle-analyzer": "^3.6.0",
@@ -34,7 +33,7 @@
   "homepage": "https://jwld.github.io/michaeldaviesfilms-v2",
   "scripts": {
     "build": "webpack --progress --config ./webpack/webpack.prod.js",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d public",
     "dev": "webpack-dev-server --hot --config ./webpack/webpack.dev.js",
     "lint": "eslint --ext .js,.jsx src",
     "lint:fix": "eslint --fix --ext .js,.jsx src"
