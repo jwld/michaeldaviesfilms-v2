@@ -32,6 +32,7 @@
     "webpack-dev-server": "^3.10.1",
     "webpack-merge": "^4.2.2"
   },
+  "homepage": "https://github.com/jwld/michaeldaviesfilms-v2",
   "scripts": {
     "build": "webpack --progress --config ./webpack/webpack.prod.js",
     "deploy": "gh-pages -d dist",
