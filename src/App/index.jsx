@@ -1,15 +1,13 @@
 import React from 'react'
 import { hot } from 'react-hot-loader/root'
-import { Route, Switch } from 'react-router-dom'
-
-import ROUTES from 'constants/routes'
-import { Landing } from 'scenes'
+import { Link, Route, Switch } from 'react-router-dom'
 
 import { NotFound } from './components'
 
 const App = () => (
   <Switch>
-    <Route component={Landing} exact path={ROUTES.LANDING} />
+    <Route component={() => <Link to="/test">Test</Link>} exact path="/" />
+    <Route component={() => <Link to="/">Home</Link>} path="/test" />
     <Route component={NotFound} />
   </Switch>
 )
