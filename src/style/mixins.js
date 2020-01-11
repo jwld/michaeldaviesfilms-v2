@@ -5,3 +5,10 @@ export const flex = css`
   display: flex;
   justify-content: center;
 `
+
+export const flexVertical = css`
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`
