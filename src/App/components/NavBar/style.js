@@ -4,6 +4,7 @@ import styled, { css } from 'styled-components'
 export const NavBar = styled.nav`
   align-items: center;
   display: flex;
+  padding: 1rem;
 `
 
 const linkHorizPadding = '1.5rem'
