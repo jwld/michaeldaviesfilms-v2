@@ -15,6 +15,10 @@ const globalStyle = css`
     text-decoration: none;
   }
 
+  body {
+    background: #21252b;
+  }
+
   button {
     background-color: transparent;
     cursor: pointer;
