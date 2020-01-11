@@ -11,8 +11,8 @@ const globalStyle = css`
   }
 
   #root {
-    max-width: 150rem;
     margin: 0 auto;
+    max-width: 150rem;
   }
 
   a {
@@ -36,8 +36,9 @@ const globalStyle = css`
 
   html {
     color: white;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 62.5%;
+    font-weight: 300;
   }
 `
 
