@@ -11,6 +11,7 @@ const globalStyle = css`
   }
 
   a {
+    color: inherit;
     cursor: pointer;
     text-decoration: none;
   }
