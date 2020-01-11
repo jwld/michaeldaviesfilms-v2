@@ -1,9 +1,29 @@
-import styled from 'styled-components'
+import { NavLink } from 'react-router-dom'
+import styled, { css } from 'styled-components'
 
 export const NavBar = styled.nav`
   align-items: center;
   display: flex;
-  height: 5rem;
-  padding: 1.5rem;
-  width: 100vw;
+`
+
+export const linkStyle = css`
+  padding: 1.2rem 1.5rem;
+`
+
+export const LeftLink = styled(NavLink)`
+  ${linkStyle};
+
+  margin-right: auto;
+`
+
+export const RightLink = styled(NavLink)`
+  ${linkStyle};
+
+  &.active {
+    background: pink;
+  }
+`
+
+export const ContactLink = styled.a`
+  ${linkStyle};
 `
