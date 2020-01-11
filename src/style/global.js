@@ -10,6 +10,11 @@ const globalStyle = css`
     padding: 0;
   }
 
+  #root {
+    max-width: 150rem;
+    margin: 0 auto;
+  }
+
   a {
     color: inherit;
     cursor: pointer;
