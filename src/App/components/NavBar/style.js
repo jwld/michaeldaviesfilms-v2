@@ -6,8 +6,10 @@ export const NavBar = styled.nav`
   display: flex;
 `
 
+const linkHorizPadding = '1.5rem'
+
 export const linkStyle = css`
-  padding: 1.2rem 1.5rem;
+  padding: 1.2rem ${linkHorizPadding};
 `
 
 export const LeftLink = styled(NavLink)`
@@ -19,8 +21,21 @@ export const LeftLink = styled(NavLink)`
 export const RightLink = styled(NavLink)`
   ${linkStyle};
 
+  position: relative;
+
+  :hover,
   &.active {
-    background: pink;
+    ::after {
+      background: white;
+      border-radius: 0.1rem;
+      bottom: 0.7rem;
+      content: '';
+      display: inline-block;
+      height: 0.2rem;
+      left: ${linkHorizPadding};
+      position: absolute;
+      width: calc(100% - ${linkHorizPadding} * 2);
+    }
   }
 `
 
