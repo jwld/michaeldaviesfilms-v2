@@ -29,6 +29,8 @@ const globalStyle = css`
   }
 
   html {
+    color: white;
+    font-family: 'Avenir', sans-serif;
     font-size: 62.5%;
   }
 `
