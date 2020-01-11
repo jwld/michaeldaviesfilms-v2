@@ -1,5 +1,7 @@
 import React from 'react'
 
-const Landing = () => <div>NOW</div>
+import * as SC from './style'
+
+const Landing = () => <SC.Landing>NOW</SC.Landing>
 
 export default Landing

@@ -1,5 +1,7 @@
 import React from 'react'
 
-const Biography = () => <div>BIOGRAPHY</div>
+import * as SC from './style'
+
+const Biography = () => <SC.Biography>BIOGRAPHY</SC.Biography>
 
 export default Biography
