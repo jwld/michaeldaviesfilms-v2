@@ -19,27 +19,37 @@ export const LeftLink = styled(NavLink)`
   margin-right: auto;
 `
 
-export const RightLink = styled(NavLink)`
+export const linkHoverStyle = css`
   ${linkStyle};
 
   position: relative;
 
+  ::after {
+    background: white;
+    border-radius: 0.1rem;
+    bottom: 0.7rem;
+    content: '';
+    display: inline-block;
+    height: 0.1rem;
+    left: ${linkHorizPadding};
+    position: absolute;
+    transform: scale(0);
+    transition: all 0.2s ease-in-out;
+    width: calc(100% - ${linkHorizPadding} * 2);
+  }
+
   :hover,
   &.active {
     ::after {
-      background: white;
-      border-radius: 0.1rem;
-      bottom: 0.7rem;
-      content: '';
-      display: inline-block;
-      height: 0.2rem;
-      left: ${linkHorizPadding};
-      position: absolute;
-      width: calc(100% - ${linkHorizPadding} * 2);
+      transform: scale(1);
     }
   }
 `
 
+export const RightLink = styled(NavLink)`
+  ${linkHoverStyle};
+`
+
 export const ContactLink = styled.a`
-  ${linkStyle};
+  ${linkHoverStyle};
 `
