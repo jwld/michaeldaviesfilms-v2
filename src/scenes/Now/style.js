@@ -38,6 +38,7 @@ export const Portrait = styled.div`
 export const Title = styled.span`
   ${mixins.flex};
 
+  font-style: italic;
   text-align: center;
 `
 
