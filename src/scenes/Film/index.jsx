@@ -25,7 +25,7 @@ const Film = () => {
           </iframe>
         </SC.VimeoFrame>
 
-        <SC.Blurb dangerouslySetInnerHTML={{ __html: film.blurb }} />
+        <SC.Blurb dangerouslySetInnerHTML={{ __html: film.description }} />
       </SC.VideoWrap>
 
       {film.awards && (

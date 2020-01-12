@@ -3,23 +3,26 @@ import React from 'react'
 
 import { BASES } from 'constants/routes'
 
+import { countWins } from './helpers'
 import * as SC from './style'
 
 const Films = ({ films }) => (
   <SC.FilmsSection>
-    {films.map(film => (
-      <SC.FilmTile key={film.key} to={`${BASES.FILM}/${film.key}`}>
-        <SC.FilmText>
-          <SC.FilmTitle>{film.title}</SC.FilmTitle> • {film.subtitle}
-        </SC.FilmText>
+    {films.map(film => {
+      const wins = countWins(film.awards)
 
-        <SC.Film image={film.key}>
-          {film.awards && film.awards.wins && (
-            <SC.AwardCount>{film.awards.wins.length}</SC.AwardCount>
-          )}
-        </SC.Film>
-      </SC.FilmTile>
-    ))}
+      return (
+        <SC.FilmTile key={film.key} to={`${BASES.FILM}/${film.key}`}>
+          <SC.FilmText>
+            <SC.FilmTitle>{film.title}</SC.FilmTitle> • {film.type}
+          </SC.FilmText>
+
+          <SC.Film image={film.key}>
+            {!!wins && <SC.AwardCount>{countWins(film.awards)}</SC.AwardCount>}
+          </SC.Film>
+        </SC.FilmTile>
+      )
+    })}
   </SC.FilmsSection>
 )
 
