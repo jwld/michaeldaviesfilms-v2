@@ -3,8 +3,8 @@ import React from 'react'
 import films from './films'
 import * as SC from './style'
 
-const Landing = () => (
-  <SC.Landing>
+const Now = () => (
+  <SC.NowPage>
     <SC.FilmsWrap>
       {films.map(film => (
         <SC.FilmTile key={film.key}>
@@ -12,7 +12,7 @@ const Landing = () => (
         </SC.FilmTile>
       ))}
     </SC.FilmsWrap>
-  </SC.Landing>
+  </SC.NowPage>
 )
 
-export default Landing
+export default Now

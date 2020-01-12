@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import { components, mixins } from 'style'
 
-export const Landing = styled(components.PageWrap)``
+export const NowPage = styled(components.PageWrap)``
 
 export const FilmsWrap = styled.div`
   display: grid;

@@ -1,2 +1,2 @@
 export Biography from './Biography'
-export Landing from './Landing'
+export Now from './Now'
