@@ -1,6 +1,12 @@
 /* eslint-disable sort-keys */
 
-export default [
+export const text = [
+  "Michael Davies is a BAFTA and RTS award-winning writer and director, currently in pre-production with his first feature, THE CAPTIVE HEART, a romantic adventure set in Italy in the 1860's, based on a true story. Carlo Cresto-Dina at Tempesta is producing and filming is scheduled for autumn 2020, on the Amalfi Coast.",
+  "Michael frequently works with RADA. In 2019 he directed the controversial sell-out play, SAFE SPACE, at the RADA Festival, the short film MIRROR MIRROR, and two rehearsed readings of new work. The script for THE CAPTIVE HEART, and for Michael's paranormal romantic comedy, PSYCHOPOMP, (supported by the Welcome Trust) have both been developed with RADA.",
+  "Michael's short film WHAT’S VIRGIN MEAN? has screened at over sixty international festivals, winning eight awards and attracting more than ten million hits on YouTube. Unusually for a short, it also made a profit. His next film, LOVE AT FIRST SIGHT, starring Phyllida Law and John Hurt, won fourteen awards, including an RTS, Rushes and Raindance, and was shortlisted for an Oscar. "
+]
+
+export const films = [
   {
     key: 'lafs',
     vimeoId: '167906777',
