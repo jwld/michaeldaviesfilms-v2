@@ -5,7 +5,7 @@ import { components, mixins } from 'style'
 export const NowPage = styled(components.PageWrap)`
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: 40rem 2fr;
+  grid-template-columns: 40rem 1fr;
 `
 
 export const AboutSection = styled.section`
