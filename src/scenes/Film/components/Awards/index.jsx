@@ -3,19 +3,24 @@ import React from 'react'
 
 import * as SC from './style'
 
-const Awards = ({ awards }) => (
-  <SC.AwardsWrap>
-    <SC.AwardsHeader>Awards</SC.AwardsHeader>
+const Awards = ({ awards, title }) => {
+  if (!awards) return null
 
-    <SC.CategoryList>
-      {awards.wins.map(award => (
-        <SC.Award key={`${award.festival}+${award.award}`}>
-          {award.festival} • {award.award}
-        </SC.Award>
-      ))}
-    </SC.CategoryList>
-  </SC.AwardsWrap>
-)
+  return (
+    <SC.Awards>
+      <SC.CategoryHeader>{title}</SC.CategoryHeader>
+
+      <SC.CategoryList>
+        {awards.map(award => (
+          <SC.Award key={`${award.festival}+${award.award}`}>
+            <span>{award.festival}</span>
+            <span>{award.award}</span>
+          </SC.Award>
+        ))}
+      </SC.CategoryList>
+    </SC.Awards>
+  )
+}
 
 const awardPropType = PropTypes.shape({
   award: PropTypes.string.isRequired,
@@ -23,11 +28,8 @@ const awardPropType = PropTypes.shape({
 })
 
 Awards.propTypes = {
-  awards: PropTypes.shape({
-    nominations: PropTypes.arrayOf(awardPropType),
-    shortlistings: PropTypes.arrayOf(awardPropType),
-    wins: PropTypes.arrayOf(awardPropType)
-  }).isRequired
+  awards: PropTypes.arrayOf(awardPropType),
+  title: PropTypes.string.isRequired
 }
 
 export default Awards

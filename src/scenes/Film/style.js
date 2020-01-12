@@ -10,8 +10,10 @@ export const FilmPage = styled(components.PageWrap)`
 `
 
 export const VideoWrap = styled.div`
+  align-content: flex-start;
   display: grid;
   grid-gap: 0.5rem;
+  max-width: 100rem;
 `
 
 export const Title = styled.h1`
@@ -37,4 +39,10 @@ export const VimeoFrame = styled.div`
 
 export const Blurb = styled.span`
   padding: 0 0.7rem;
+`
+
+export const AwardsWrap = styled.div`
+  align-content: flex-start;
+  display: grid;
+  grid-gap: 1.5rem;
 `

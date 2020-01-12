@@ -28,7 +28,13 @@ const Film = () => {
         <SC.Blurb>{film.blurb}</SC.Blurb>
       </SC.VideoWrap>
 
-      <Awards awards={film.awards} />
+      {film.awards && (
+        <SC.AwardsWrap>
+          <Awards awards={film.awards.wins} title="Won" />
+          <Awards awards={film.awards.nominations} title="Nominated" />
+          <Awards awards={film.awards.shortlistings} title="Shortlisted" />
+        </SC.AwardsWrap>
+      )}
     </SC.FilmPage>
   )
 }
