@@ -135,6 +135,11 @@ export const films = [
         award: 'Originality Award',
         festival: 'Forster Film Festival',
         result: 'winner'
+      },
+      {
+        award: 'First Prize (The Twisted Bun Award)',
+        festival: 'Sodertljie Food Film Festival',
+        result: 'winner'
       }
     ],
     description: 'Comedy starring Kate Isitt.',
