@@ -71,3 +71,25 @@ export const Film = styled.div`
   box-shadow: 0 0.8rem 1rem -0.5rem black;
   cursor: pointer;
 `
+
+const countSize = '6rem'
+const countOffset = '1rem'
+
+export const AwardCount = styled.div`
+  ${mixins.flex};
+
+  background: white;
+  background-image: url('images/wreath.png');
+  background-position: center 90%;
+  background-repeat: no-repeat;
+  background-size: 88%;
+  border-radius: 50%;
+  bottom: ${countOffset};
+  box-shadow: 0 0.5rem 1rem -0.5rem black;
+  color: #ccad00;
+  font-weight: 400;
+  height: ${countSize};
+  position: absolute;
+  right: ${countOffset};
+  width: ${countSize};
+`

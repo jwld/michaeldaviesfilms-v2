@@ -24,7 +24,11 @@ const Now = () => (
     <SC.FilmsWrap>
       {films.map(film => (
         <SC.FilmTile key={film.key}>
-          <SC.Film image={film.key}></SC.Film>
+          <SC.Film image={film.key}>
+            {film.awards.wins && (
+              <SC.AwardCount>{film.awards.wins.length}</SC.AwardCount>
+            )}
+          </SC.Film>
         </SC.FilmTile>
       ))}
     </SC.FilmsWrap>
