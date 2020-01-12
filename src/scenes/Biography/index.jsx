@@ -1,11 +1,13 @@
 import React from 'react'
 
-import { text } from './data'
+import { FilmGrid } from 'components'
+
+import { films, text } from './data'
 import * as SC from './style'
 
 const Biography = () => (
   <SC.BiographyPage>
-    <div />
+    <FilmGrid films={films} />
 
     <SC.TextWrap>
       {text.map((para, index) => (
