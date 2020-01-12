@@ -93,7 +93,6 @@ export const films = [
   {
     key: 'wvm',
     vimeoId: '167904928',
-    overlayInfo: '',
     title: "What's Virgin Mean?",
     subtitle: 'Short Film',
     blurb: 'Comedy starring Kate Isitt.',
@@ -133,7 +132,6 @@ export const films = [
   {
     key: 'mirror',
     vimeoId: '352929055',
-    overlayInfo: '',
     title: 'Mirror Mirror',
     subtitle: 'Short Film',
     blurb: 'RADA film. Romantic comedy.'
