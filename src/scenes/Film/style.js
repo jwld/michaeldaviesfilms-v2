@@ -5,6 +5,11 @@ import { components, mixins } from 'style'
 
 export const FilmPage = styled(components.PageWrap)`
   display: grid;
+  grid-gap: 4rem;
+`
+
+export const PageSection = styled.section`
+  display: grid;
   grid-gap: 2rem;
   grid-template-columns: 1fr 47.5rem;
 `

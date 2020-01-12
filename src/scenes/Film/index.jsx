@@ -27,16 +27,16 @@ const Film = () => {
     </SC.Review>
   )
 
-  return (
-    <SC.FilmPage>
+  const renderSection = section => (
+    <SC.PageSection key={section.title}>
       <SC.VideoWrap>
-        <SC.Title>{film.title}</SC.Title>
+        <SC.Title>{section.title}</SC.Title>
 
         <SC.VimeoFrame>
           <iframe
             allowFullScreen={1}
             mozallowfullscreen={1}
-            src={`https://player.vimeo.com/video/${film.vimeoId}/?title=0&byline=0&portrait=0`}
+            src={`https://player.vimeo.com/video/${section.vimeoId}/?title=0&byline=0&portrait=0`}
             webkitallowfullscreen={1}
           >
             ok
@@ -44,27 +44,35 @@ const Film = () => {
         </SC.VimeoFrame>
 
         <SC.SubtitleWrap>
-          <SC.Blurb dangerouslySetInnerHTML={{ __html: film.description }} />
+          <SC.Blurb dangerouslySetInnerHTML={{ __html: section.description }} />
           <SC.ProductionInfo>
-            {film.company && film.company}
-            {film.production && ` • ${film.production}`}
+            {section.company && section.company}
+            {section.production && ` • ${section.production}`}
           </SC.ProductionInfo>
         </SC.SubtitleWrap>
       </SC.VideoWrap>
 
       <SC.Accolades>
-        {film.awards && (
+        {section.awards && (
           <SC.AwardsWrap>
-            {film.awards.map(award => renderAward(award))}
+            {section.awards.map(award => renderAward(award))}
           </SC.AwardsWrap>
         )}
 
-        {film.reviews && (
+        {section.reviews && (
           <SC.ReviewsWrap>
-            {film.reviews.map(review => renderReview(review))}
+            {section.reviews.map(review => renderReview(review))}
           </SC.ReviewsWrap>
         )}
       </SC.Accolades>
+    </SC.PageSection>
+  )
+
+  return (
+    <SC.FilmPage>
+      {film.sections
+        ? film.sections.map(section => renderSection(section))
+        : renderSection(film)}
     </SC.FilmPage>
   )
 }
