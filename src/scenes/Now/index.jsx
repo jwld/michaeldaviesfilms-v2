@@ -7,7 +7,7 @@ const Now = () => (
   <SC.NowPage>
     <SC.NowText>
       {text.map((para, index) => (
-        <p key={index}>{para}</p>
+        <p dangerouslySetInnerHTML={{ __html: para }} key={index} />
       ))}
     </SC.NowText>
 
