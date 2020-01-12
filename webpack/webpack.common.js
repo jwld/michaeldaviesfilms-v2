@@ -15,6 +15,6 @@ module.exports = {
   },
   resolve: {
     extensions: ['.mjs', '.js', '.jsx'],
-    modules: ['./src', 'node_modules']
+    modules: ['./src', './src/scenes', 'node_modules']
   }
 }
