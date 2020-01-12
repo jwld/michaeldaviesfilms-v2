@@ -1,3 +1,4 @@
+**/images
 dump/
 node_modules/
 public/*bundle.js
