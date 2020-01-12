@@ -16,75 +16,75 @@ export const films = [
     awards: {
       wins: [
         {
-          festival: 'Royal Television Society Award, UK 2010',
+          festival: 'Royal Television Society Award, UK',
           award: 'Best Short Film'
         },
         {
-          festival: 'Aspen Shortfest, USA 2011',
+          festival: 'Aspen Shortfest, USA',
           award: 'Audience Award'
         },
         {
-          festival: 'Dresden Internatinal Short Film Festival, Germany 2011',
+          festival: 'Dresden International Short Film Festival, Germany',
           award: 'Special Mention'
         },
         {
-          festival: 'British Independent Film Festival, UK 2011',
+          festival: 'British Independent Film Festival, UK',
           award: 'Best Director'
         },
         {
-          festival: 'British Independent Film Festival, UK 2011',
+          festival: 'British Independent Film Festival, UK',
           award: 'Best Actress'
         },
         {
-          festival: 'Rushes Soho Shorts Festival, UK 2011',
+          festival: 'Rushes Soho Shorts Festival, UK',
           award: 'Best Short Film'
         },
         {
-          festival: 'Tri Media Film Festival, USA 2011',
+          festival: 'Tri Media Film Festival, USA',
           award: 'Best International Film'
         },
         {
-          festival: 'Tri Media Film Festival, USA 2011',
+          festival: 'Tri Media Film Festival, USA',
           award: 'Audience Award'
         },
         {
-          festival: 'Raindance Film Festival, UK 2011',
+          festival: 'Raindance Film Festival, UK',
           award: 'Best UK Short Film'
         },
         {
-          festival: 'Cornwall Film Festival, UK 2011',
+          festival: 'Cornwall Film Festival, UK',
           award: 'Best International Short Film'
         },
         {
-          festival: 'Seattle Shorts Film Festival, USA 2011',
+          festival: 'Seattle Shorts Film Festival, USA',
           award: 'Best Actress'
         },
         {
-          festival: 'Prague Short Film Festival, Czech Republic 2012',
+          festival: 'Prague Short Film Festival, Czech Republic',
           award: 'Audience Award'
         },
         {
-          festival: 'Postira Film Festival, Croatia 2012',
+          festival: 'Postira Film Festival, Croatia',
           award: 'Audience Award'
         },
         {
-          festival: 'Ojai Film Festival, USA 2012',
+          festival: 'Ojai Film Festival, USA',
           award: 'Best Narrative Short'
         },
         {
-          festival: 'Rouen Film Festival, France 2012',
+          festival: 'Rouen Film Festival, France',
           award: 'Best Fiction Film'
         }
       ],
       nominations: [
         {
-          festival: 'British Independent Film Awards, UK 2011',
+          festival: 'British Independent Film Awards, UK',
           award: 'Best British Short'
         }
       ],
       shortlistings: [
         {
-          festival: 'Academy Awards, USA 2012',
+          festival: 'Academy Awards, USA',
           award: 'Live Action Short'
         }
       ]
@@ -100,31 +100,31 @@ export const films = [
     awards: {
       wins: [
         {
-          festival: 'Encounters Film Festival, UK 2008',
+          festival: 'Encounters Film Festival, UK',
           award: 'NFTS Special Mention'
         },
         {
-          festival: 'Prix de Court Pathe, Switzerland 2009',
+          festival: 'Prix de Court Pathe, Switzerland',
           award: 'Audience Award'
         },
         {
-          festival: 'CFF, USA 2009',
+          festival: 'CFF, USA',
           award: 'Special Jury Award For Best Comedy'
         },
         {
-          festival: 'Soul 4 Reel, USA 2010',
+          festival: 'Soul 4 Reel, USA',
           award: 'Audience Choice Award'
         },
         {
-          festival: 'Time Film Festival, Switzerland 2010',
+          festival: 'Time Film Festival, Switzerland',
           award: 'Best Short Film'
         },
         {
-          festival: 'Bratislava International Film Festival, Slovakia 2010',
+          festival: 'Bratislava International Film Festival, Slovakia',
           award: 'Best Short Film'
         },
         {
-          festival: 'Forster Film Festival, Australia 2013',
+          festival: 'Forster Film Festival, Australia',
           award: 'Originality Award'
         }
       ]
