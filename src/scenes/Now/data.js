@@ -10,77 +10,77 @@ export const films = [
       {
         award: 'Best Short Film',
         festival: 'Royal Television Society Award',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Audience Award',
         festival: 'Aspen Shortfest',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Special Mention',
         festival: 'Dresden International Short Film Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Best Director',
         festival: 'British Independent Film Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Best Actress',
         festival: 'British Independent Film Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Best Short Film',
         festival: 'Rushes Soho Shorts Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Best International Film',
         festival: 'Tri Media Film Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Audience Award',
         festival: 'Tri Media Film Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Best UK Short Film',
         festival: 'Raindance Film Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Best International Short Film',
         festival: 'Cornwall Film Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Best Actress',
         festival: 'Seattle Shorts Film Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Audience Award',
         festival: 'Prague Short Film Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Audience Award',
         festival: 'Postira Film Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Best Narrative Short',
         festival: 'Ojai Film Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Best Fiction Film',
         festival: 'Rouen Film Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Best British Short',
@@ -104,37 +104,37 @@ export const films = [
       {
         award: 'NFTS Special Mention',
         festival: 'Encounters Film Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Audience Award',
         festival: 'Prix de Court Pathe',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Special Jury Award For Best Comedy',
         festival: 'CFF',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Audience Choice Award',
         festival: 'Soul 4 Reel',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Best Short Film',
         festival: 'Time Film Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Best Short Film',
         festival: 'Bratislava International Film Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Originality Award',
         festival: 'Forster Film Festival',
-        result: 'won'
+        result: 'winner'
       }
     ],
     description: 'Comedy starring Kate Isitt.',

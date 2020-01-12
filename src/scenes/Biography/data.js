@@ -9,12 +9,12 @@ export const films = [
       {
         award: 'Best Drama',
         festival: "BAFTA Children's Award",
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Best Direction',
         festival: 'Chicago International Film Festival',
-        result: 'won'
+        result: 'winner'
       },
       {
         award: 'Best Female Performer',
