@@ -5,49 +5,102 @@ export const text = [
 
 export const films = [
   {
-    awards: [
+    key: 'tbr',
+    sections: [
       {
-        award: 'Best Drama',
-        festival: "BAFTA Children's Award",
-        result: 'winner'
+        awards: [
+          {
+            award: 'Best Drama',
+            festival: "BAFTA Children's Award",
+            result: 'winner'
+          },
+          {
+            award: 'Best Direction',
+            festival: 'Chicago International Film Festival',
+            result: 'winner'
+          },
+          {
+            award: 'Best Female Performer',
+            festival: "BAFTA Children's Award",
+            result: 'nominated'
+          },
+          {
+            award: 'Best Writer',
+            festival: "BAFTA Children's Award",
+            result: 'nominated'
+          },
+          {
+            award: 'Audience Award',
+            festival: "BAFTA Children's Award",
+            result: 'nominated'
+          },
+          {
+            award: "Best Children's Drama",
+            festival: 'Royal Television Society Award',
+            result: 'nominated'
+          },
+          {
+            award: "Best Children's Drama",
+            festival: 'BANFF Television Awards',
+            result: 'nominated'
+          }
+        ],
+        company: 'BBC',
+        description:
+          "Reboot of the popular children's series <i>Tracy Beaker</i>.",
+        production: '5 x 30 mins',
+        title: 'Tracy Beaker Returns, Series 1',
+        vimeoId: ''
       },
       {
-        award: 'Best Direction',
-        festival: 'Chicago International Film Festival',
-        result: 'winner'
+        awards: [
+          {
+            award: 'Best Drama Production',
+            festival: 'Royal Television Society Award',
+            result: 'winner'
+          },
+          {
+            award: "Best Children's Drama",
+            festival: 'Royal Television Society Programme Award',
+            result: 'winner'
+          },
+          {
+            award: 'Best Direction',
+            festival: 'Chicago International Film Festival,',
+            result: 'winner'
+          },
+          {
+            award: 'Audience Award',
+            festival: "BAFTA Children's Award",
+            result: 'nominated'
+          }
+        ],
+        company: 'BBC',
+        production: '5 x 30 mins',
+        title: 'Tracy Beaker Returns, Series 2',
+        vimeoId: ''
       },
       {
-        award: 'Best Female Performer',
-        festival: "BAFTA Children's Award",
-        result: 'nominated'
-      },
-      {
-        award: 'Best Writer',
-        festival: "BAFTA Children's Award",
-        result: 'nominated'
-      },
-      {
-        award: 'Audience Award',
-        festival: "BAFTA Children's Award",
-        result: 'nominated'
-      },
-      {
-        award: "Best Children's Drama",
-        festival: 'Royal Television Society Award',
-        result: 'nominated'
-      },
-      {
-        award: "Best Children's Drama",
-        festival: 'BANFF Television Awards',
-        result: 'nominated'
+        awards: [
+          {
+            award: 'Best Drama',
+            festival: "BAFTA Children's Award",
+            result: 'nominated'
+          },
+          {
+            award: 'Audience Award',
+            festival: "BAFTA Children's Award",
+            result: 'nominated'
+          }
+        ],
+        company: 'BBC',
+        production: '4 x 30 mins',
+        title: 'Tracy Beaker Returns, Series 3',
+        vimeoId: ''
       }
     ],
-    company: 'BBC',
-    description: "Reboot of the popular children's series <i>Tracy Beaker</i>.",
-    key: 'tbr',
     title: 'Tracy Beaker Returns',
-    type: 'Drama',
-    vimeoId: ''
+    type: 'Drama'
   },
   {
     company: 'Impossible Pictures',
