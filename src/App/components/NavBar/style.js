@@ -38,7 +38,6 @@ export const linkHoverStyle = css`
     width: calc(100% - ${linkHorizPadding} * 2);
   }
 
-  :hover,
   &.active {
     ::after {
       transform: scale(1);
