@@ -22,7 +22,7 @@ export const PortraitTitleWrap = styled.div`
   margin-top: 1.5rem;
 `
 
-const portraitSize = '20rem'
+const portraitSize = '25rem'
 
 export const Portrait = styled.div`
   background-image: url('images/portrait.png');
