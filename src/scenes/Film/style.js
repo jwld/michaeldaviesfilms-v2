@@ -36,9 +36,17 @@ export const VimeoFrame = styled.div`
   }
 `
 
-export const Blurb = styled.span`
-  padding: 0 0.7rem;
+export const SubtitleWrap = styled.div`
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: 1fr auto;
 `
+
+export const Blurb = styled.span`
+  padding-left: 0.7rem;
+`
+
+export const ProductionInfo = styled.span``
 
 export const Accolades = styled.div`
   align-content: flex-start;

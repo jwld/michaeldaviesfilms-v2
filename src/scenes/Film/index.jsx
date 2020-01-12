@@ -43,7 +43,13 @@ const Film = () => {
           </iframe>
         </SC.VimeoFrame>
 
-        <SC.Blurb dangerouslySetInnerHTML={{ __html: film.description }} />
+        <SC.SubtitleWrap>
+          <SC.Blurb dangerouslySetInnerHTML={{ __html: film.description }} />
+          <SC.ProductionInfo>
+            {film.company && film.company}
+            {film.production && ` • ${film.production}`}
+          </SC.ProductionInfo>
+        </SC.SubtitleWrap>
       </SC.VideoWrap>
 
       <SC.Accolades>
