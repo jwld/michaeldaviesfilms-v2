@@ -21,22 +21,11 @@ const Films = ({ films }) => (
   </SC.FilmsSection>
 )
 
-const awardPropType = PropTypes.shape({
-  award: PropTypes.string.isRequired,
-  festival: PropTypes.string.isRequired
-})
-
 const filmPropType = PropTypes.shape({
-  awards: PropTypes.shape({
-    nominations: PropTypes.arrayOf(awardPropType),
-    shortlistings: PropTypes.arrayOf(awardPropType),
-    wins: PropTypes.arrayOf(awardPropType)
-  }).isRequired,
-  blurb: PropTypes.string.isRequired,
+  awards: PropTypes.array.isRequired,
   key: PropTypes.string.isRequired,
-  subtitle: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  vimeoId: PropTypes.string.isRequired
+  type: PropTypes.string.isRequired
 })
 
 Films.propTypes = {
