@@ -2,13 +2,27 @@ import React from 'react'
 
 import { FilmGrid } from 'components'
 
-import { About } from './components'
-import { films } from './data'
+import { films, text } from './data'
 import * as SC from './style'
 
 const Now = () => (
   <SC.NowPage>
-    <About />
+    <SC.AboutSection>
+      <SC.PortraitTitleWrap>
+        <SC.Portrait />
+        <SC.Title>
+          Writer &<br />
+          Director
+        </SC.Title>
+      </SC.PortraitTitleWrap>
+
+      <SC.TextWrap>
+        {text.map((para, index) => (
+          <p dangerouslySetInnerHTML={{ __html: para }} key={index} />
+        ))}
+      </SC.TextWrap>
+    </SC.AboutSection>
+
     <FilmGrid films={films} />
   </SC.NowPage>
 )
