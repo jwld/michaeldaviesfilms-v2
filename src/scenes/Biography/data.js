@@ -5,7 +5,7 @@ export const text = [
 
 export const films = [
   {
-    key: 'tbr',
+    key: 'beaker',
     sections: [
       {
         awards: [
