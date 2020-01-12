@@ -9,6 +9,24 @@ export const NowPage = styled(components.PageWrap)`
   grid-template-columns: 40rem 2fr;
 `
 
+export const AboutSection = styled.section`
+  display: grid;
+  grid-gap: 2rem;
+`
+
+const portraitSize = '25rem'
+
+export const Portrait = styled.div`
+  background-image: url('images/portrait.png');
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  filter: grayscale(100%);
+  height: ${portraitSize};
+  margin: auto;
+  width: ${portraitSize};
+`
+
 export const NowText = styled.div`
   align-content: flex-start;
   display: grid;
