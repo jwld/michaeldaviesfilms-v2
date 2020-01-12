@@ -8,37 +8,37 @@ export const films = [
     awards: [
       {
         award: 'Best Drama',
-        festival: "BAFTA Children's Award, UK",
+        festival: "BAFTA Children's Award",
         result: 'won'
       },
       {
         award: 'Best Direction',
-        festival: 'Chicago International Film Festival, USA',
+        festival: 'Chicago International Film Festival',
         result: 'won'
       },
       {
-        award: 'Best Female Performer - Dani Harmer',
-        festival: "BAFTA Children's Award, UK",
+        award: 'Best Female Performer',
+        festival: "BAFTA Children's Award",
         result: 'nominated'
       },
       {
         award: 'Best Writer',
-        festival: "BAFTA Children's Award, UK",
+        festival: "BAFTA Children's Award",
         result: 'nominated'
       },
       {
         award: 'Audience Award',
-        festival: "BAFTA Children's Award, UK",
+        festival: "BAFTA Children's Award",
         result: 'nominated'
       },
       {
         award: "Best Children's Drama",
-        festival: 'Royal Television Society Award, UK',
+        festival: 'Royal Television Society Award',
         result: 'nominated'
       },
       {
         award: "Best Children's Drama",
-        festival: 'BANFF Television Awards, UK',
+        festival: 'BANFF Television Awards',
         result: 'nominated'
       }
     ],
