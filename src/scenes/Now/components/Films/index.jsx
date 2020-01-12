@@ -8,6 +8,10 @@ const Films = () => (
     {films.map(film => (
       <SC.FilmTile key={film.key}>
         <SC.Film image={film.key}>
+          <SC.Overlay>
+            <SC.FilmTitle>{film.title}</SC.FilmTitle> • {film.subtitle}
+          </SC.Overlay>
+
           {film.awards.wins && (
             <SC.AwardCount>{film.awards.wins.length}</SC.AwardCount>
           )}

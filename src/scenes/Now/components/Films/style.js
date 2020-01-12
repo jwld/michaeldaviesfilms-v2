@@ -27,6 +27,26 @@ export const Film = styled.div`
   cursor: pointer;
 `
 
+export const Overlay = styled.div`
+  align-items: flex-end;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  height: 100%;
+  opacity: 0;
+  padding: 1rem 1.2rem;
+  transition: 0.1s;
+  width: 100%;
+
+  ${Film}:hover & {
+    opacity: 1;
+  }
+`
+
+export const FilmTitle = styled.span`
+  font-style: italic;
+  margin-right: 0.5rem;
+`
+
 const countSize = '6rem'
 const countOffset = '1rem'
 
