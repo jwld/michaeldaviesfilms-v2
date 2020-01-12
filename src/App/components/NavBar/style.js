@@ -27,7 +27,7 @@ export const linkHoverStyle = css`
   ::after {
     background: white;
     border-radius: 0.1rem;
-    bottom: 0.7rem;
+    bottom: 0.9rem;
     content: '';
     display: inline-block;
     height: 0.1rem;
