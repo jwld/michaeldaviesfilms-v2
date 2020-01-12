@@ -20,9 +20,10 @@ export const PortraitTitleWrap = styled.div`
   grid-gap: 2rem;
   grid-template-columns: auto auto;
   margin: 0 auto;
+  margin-top: 1.5rem;
 `
 
-const portraitSize = '25rem'
+const portraitSize = '20rem'
 
 export const Portrait = styled.div`
   background-image: url('images/portrait.png');
