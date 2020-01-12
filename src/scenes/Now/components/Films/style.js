@@ -41,7 +41,7 @@ export const FilmText = styled.div`
 
 export const FilmTitle = styled.span`
   font-style: italic;
-  margin-right: 0.5rem;
+  margin-right: 0.2rem;
 `
 
 const countSize = '6rem'
