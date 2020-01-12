@@ -16,7 +16,9 @@ export const linkStyle = css`
 export const LeftLink = styled(NavLink)`
   ${linkStyle};
 
+  font-weight: 400;
   margin-right: auto;
+  text-transform: uppercase;
 `
 
 export const linkHoverStyle = css`
