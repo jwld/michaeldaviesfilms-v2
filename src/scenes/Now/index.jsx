@@ -6,7 +6,13 @@ import * as SC from './style'
 const Now = () => (
   <SC.NowPage>
     <SC.AboutSection>
-      <SC.Portrait />
+      <SC.PortraitTitleWrap>
+        <SC.Portrait />
+        <SC.Title>
+          Writer &<br />
+          Director
+        </SC.Title>
+      </SC.PortraitTitleWrap>
 
       <SC.NowText>
         {text.map((para, index) => (

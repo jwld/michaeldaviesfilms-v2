@@ -10,8 +10,16 @@ export const NowPage = styled(components.PageWrap)`
 `
 
 export const AboutSection = styled.section`
+  align-content: flex-start;
   display: grid;
   grid-gap: 2rem;
+`
+
+export const PortraitTitleWrap = styled.div`
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: auto auto;
+  margin: 0 auto;
 `
 
 const portraitSize = '25rem'
@@ -23,8 +31,13 @@ export const Portrait = styled.div`
   border-radius: 50%;
   filter: grayscale(100%);
   height: ${portraitSize};
-  margin: auto;
   width: ${portraitSize};
+`
+
+export const Title = styled.span`
+  ${mixins.flex};
+
+  text-align: center;
 `
 
 export const NowText = styled.div`
