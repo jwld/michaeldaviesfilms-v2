@@ -13,11 +13,11 @@ const About = () => (
       </SC.Title>
     </SC.PortraitTitleWrap>
 
-    <SC.AboutText>
+    <SC.TextWrap>
       {text.map((para, index) => (
         <p dangerouslySetInnerHTML={{ __html: para }} key={index} />
       ))}
-    </SC.AboutText>
+    </SC.TextWrap>
   </SC.AboutSection>
 )
 

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { mixins } from 'style'
+import { components, mixins } from 'style'
 
 export const AboutSection = styled.section`
   align-content: flex-start;
@@ -35,8 +35,4 @@ export const Title = styled.span`
   text-align: center;
 `
 
-export const AboutText = styled.div`
-  align-content: flex-start;
-  display: grid;
-  grid-gap: 1rem;
-`
+export const TextWrap = components.TextWrap
