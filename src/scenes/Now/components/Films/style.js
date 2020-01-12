@@ -1,4 +1,5 @@
 import { cover } from 'polished'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 import { mixins } from 'style'
@@ -10,7 +11,7 @@ export const FilmsSection = styled.section`
   grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
 `
 
-export const FilmTile = styled.div`
+export const FilmTile = styled(Link)`
   padding-bottom: 56.25%;
   position: relative;
 `
