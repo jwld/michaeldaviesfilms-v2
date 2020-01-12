@@ -53,11 +53,13 @@ export const AwardsWrap = styled.div`
 `
 
 export const Award = styled.div`
+  align-content: center;
   display: grid;
   grid-template-columns: auto 1fr auto;
 `
 
 export const Wreath = styled.div`
+  align-self: center;
   background-image: url('images/half-wreath.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -68,6 +70,7 @@ export const Wreath = styled.div`
 
 export const AwardDetails = styled.div`
   display: grid;
+  grid-gap: 0.2rem;
 
   span {
     ${mixins.flex};
