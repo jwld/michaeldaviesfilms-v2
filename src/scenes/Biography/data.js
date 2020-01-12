@@ -83,5 +83,44 @@ export const films = [
     title: 'A Dinosaur In Hollywood',
     type: 'Drama Documentary',
     vimeoId: '167772506'
+  },
+  {
+    company: 'Hartswood Films',
+    description: 'The largest escape by German POWs during WW2.',
+    key: 'escape',
+    production: '60 min Channel 4',
+    reviews: [
+      {
+        review: 'A fascinating dramatisation',
+        source: 'The Daily Mirror'
+      },
+      {
+        review: 'Compelling storytelling',
+        source: 'The Daily Telegraph'
+      },
+      {
+        review: 'Hilarious, a fantastically entertaining film',
+        source: 'The Sunday Times'
+      },
+      {
+        review: 'Watch this, an amazing tale',
+        source: 'The Guardian'
+      },
+      {
+        review: 'Jaunty and exciting',
+        source: 'The Times'
+      },
+      {
+        review: 'An extraordinary story',
+        source: 'The Sunday Telegraph'
+      },
+      {
+        review: 'Absolutely fascinating',
+        source: 'The Daily Mail'
+      }
+    ],
+    title: 'The Welsh Great Escape',
+    type: 'Drama Documentary',
+    vimeoId: '167788873'
   }
 ]
