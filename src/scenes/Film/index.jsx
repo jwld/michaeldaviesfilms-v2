@@ -23,6 +23,8 @@ const Film = () => {
             ok
           </iframe>
         </SC.VimeoFrame>
+
+        <SC.Blurb>{film.blurb}</SC.Blurb>
       </SC.VideoWrap>
     </SC.FilmPage>
   )

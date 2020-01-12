@@ -6,12 +6,12 @@ import { components } from 'style'
 export const FilmPage = styled(components.PageWrap)`
   display: grid;
   grid-gap: 2rem;
-  grid-template-columns: 1fr 45rem;
+  grid-template-columns: 2fr 1fr;
 `
 
 export const VideoWrap = styled.div`
   display: grid;
-  grid-gap: 0.4rem;
+  grid-gap: 0.5rem;
 `
 
 export const Title = styled.h1`
@@ -33,4 +33,8 @@ export const VimeoFrame = styled.div`
     height: 100%;
     width: 100%;
   }
+`
+
+export const Blurb = styled.span`
+  padding: 0 0.7rem;
 `

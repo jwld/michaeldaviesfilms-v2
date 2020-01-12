@@ -136,7 +136,7 @@ export const films = [
     overlayInfo: '',
     title: 'Mirror Mirror',
     subtitle: 'Short Film',
-    blurb: 'RADA Film. Romantic comedy.',
+    blurb: 'RADA film. Romantic comedy.',
     awards: {}
   }
 ]
