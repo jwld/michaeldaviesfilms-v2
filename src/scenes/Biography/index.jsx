@@ -5,6 +5,8 @@ import * as SC from './style'
 
 const Biography = () => (
   <SC.BiographyPage>
+    <div />
+
     <SC.TextWrap>
       {text.map((para, index) => (
         <p dangerouslySetInnerHTML={{ __html: para }} key={index} />
