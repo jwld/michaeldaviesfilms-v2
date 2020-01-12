@@ -14,7 +14,7 @@ const Films = ({ films }) => (
         </SC.FilmText>
 
         <SC.Film image={film.key}>
-          {film.awards.wins && (
+          {film.awards && film.awards.wins && (
             <SC.AwardCount>{film.awards.wins.length}</SC.AwardCount>
           )}
         </SC.Film>
