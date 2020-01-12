@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 
+import { Awards } from './components'
 import { getFilm } from './helpers'
 import * as SC from './style'
 
@@ -15,10 +16,10 @@ const Film = () => {
 
         <SC.VimeoFrame>
           <iframe
-            allowFullScreen
-            mozallowfullscreen
+            allowFullScreen={1}
+            mozallowfullscreen={1}
             src={`https://player.vimeo.com/video/${film.vimeoId}/?title=0&byline=0&portrait=0`}
-            webkitallowfullscreen
+            webkitallowfullscreen={1}
           >
             ok
           </iframe>
@@ -26,6 +27,8 @@ const Film = () => {
 
         <SC.Blurb>{film.blurb}</SC.Blurb>
       </SC.VideoWrap>
+
+      <Awards awards={film.awards} />
     </SC.FilmPage>
   )
 }
