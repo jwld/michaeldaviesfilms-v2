@@ -54,6 +54,32 @@ export const films = [
     description: 'A biopic of Tyrannosaurus Rex. Lots of CGI.',
     key: 'dinosaur',
     production: '60 min BBC1 / Discovery',
+    reviews: [
+      {
+        review: 'Highly entertaining',
+        source: 'The Times'
+      },
+      {
+        review: 'More mockumentary than documentary',
+        source: 'The Daily Mail'
+      },
+      {
+        review: 'Comedy with genuine flair ',
+        source: 'The Daily Telegraph'
+      },
+      {
+        review: 'A cheeky biopic',
+        source: 'The Guardian'
+      },
+      {
+        review: 'An entertaining, fun romp',
+        source: 'The Daily Express'
+      },
+      {
+        review: 'Quirky and irreverent, a real oddity',
+        source: 'The Sunday Times'
+      }
+    ],
     title: 'A Dinosaur In Hollywood',
     type: 'Drama Documentary',
     vimeoId: '167772506'
