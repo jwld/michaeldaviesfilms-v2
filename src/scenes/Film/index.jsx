@@ -20,6 +20,13 @@ const Film = () => {
     </SC.Award>
   )
 
+  const renderReview = review => (
+    <SC.Review key={review.source}>
+      <SC.ReviewText>{review.review}</SC.ReviewText>
+      <SC.ReviewSource>{review.source}</SC.ReviewSource>
+    </SC.Review>
+  )
+
   return (
     <SC.FilmPage>
       <SC.VideoWrap>
@@ -44,6 +51,12 @@ const Film = () => {
           <SC.AwardsWrap>
             {film.awards.map(award => renderAward(award))}
           </SC.AwardsWrap>
+        )}
+
+        {film.reviews && (
+          <SC.ReviewsWrap>
+            {film.reviews.map(review => renderReview(review))}
+          </SC.ReviewsWrap>
         )}
       </SC.Accolades>
     </SC.FilmPage>

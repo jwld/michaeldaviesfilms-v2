@@ -93,3 +93,22 @@ export const Festival = styled.span`
   font-size: 1.4rem;
   font-style: italic;
 `
+
+export const ReviewsWrap = styled.div`
+  display: grid;
+  grid-gap: 2rem;
+  padding-top: 3.5rem;
+`
+
+export const Review = styled.div`
+  display: grid;
+  grid-gap: 0.3rem;
+`
+
+export const ReviewText = styled.span`
+  font-style: italic;
+`
+
+export const ReviewSource = styled.span`
+  padding-left: 1rem;
+`
