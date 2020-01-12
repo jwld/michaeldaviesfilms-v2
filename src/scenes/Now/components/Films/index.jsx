@@ -9,11 +9,11 @@ const Films = () => (
   <SC.FilmsSection>
     {films.map(film => (
       <SC.FilmTile key={film.key} to={`${BASES.FILM}/${film.key}`}>
-        <SC.Film image={film.key}>
-          <SC.Overlay>
-            <SC.FilmTitle>{film.title}</SC.FilmTitle> • {film.subtitle}
-          </SC.Overlay>
+        <SC.FilmText>
+          <SC.FilmTitle>{film.title}</SC.FilmTitle> • {film.subtitle}
+        </SC.FilmText>
 
+        <SC.Film image={film.key}>
           {film.awards.wins && (
             <SC.AwardCount>{film.awards.wins.length}</SC.AwardCount>
           )}

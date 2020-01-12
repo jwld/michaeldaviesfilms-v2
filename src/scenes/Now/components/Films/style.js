@@ -26,21 +26,17 @@ export const Film = styled.div`
   border-radius: 0.3rem;
   box-shadow: 0 0.8rem 1rem -0.5rem black;
   cursor: pointer;
+  transition: 0.2s;
+
+  ${FilmTile}:hover & {
+    bottom: 2.5rem;
+  }
 `
 
-export const Overlay = styled.div`
-  align-items: flex-end;
-  background-color: rgba(0, 0, 0, 0.3);
-  display: flex;
-  height: 100%;
-  opacity: 0;
-  padding: 1rem 1.2rem;
-  transition: 0.1s;
-  width: 100%;
-
-  ${Film}:hover & {
-    opacity: 1;
-  }
+export const FilmText = styled.div`
+  bottom: 0;
+  padding: 0.2rem 0.7rem;
+  position: absolute;
 `
 
 export const FilmTitle = styled.span`
