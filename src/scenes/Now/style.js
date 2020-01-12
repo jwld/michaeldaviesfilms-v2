@@ -3,9 +3,20 @@ import styled from 'styled-components'
 
 import { components, mixins } from 'style'
 
-export const NowPage = styled(components.PageWrap)``
+export const NowPage = styled(components.PageWrap)`
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 40rem 2fr;
+`
+
+export const NowText = styled.div`
+  align-content: flex-start;
+  display: grid;
+  grid-gap: 1rem;
+`
 
 export const FilmsWrap = styled.section`
+  align-content: flex-start;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
