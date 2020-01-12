@@ -22,7 +22,7 @@ const Films = ({ films }) => (
 )
 
 const filmPropType = PropTypes.shape({
-  awards: PropTypes.array.isRequired,
+  awards: PropTypes.array,
   key: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired
