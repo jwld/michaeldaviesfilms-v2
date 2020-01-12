@@ -9,87 +9,87 @@ export const films = [
     awards: [
       {
         award: 'Best Short Film',
-        festival: 'Royal Television Society Award, UK',
+        festival: 'Royal Television Society Award',
         result: 'won'
       },
       {
         award: 'Audience Award',
-        festival: 'Aspen Shortfest, USA',
+        festival: 'Aspen Shortfest',
         result: 'won'
       },
       {
         award: 'Special Mention',
-        festival: 'Dresden International Short Film Festival, Germany',
+        festival: 'Dresden International Short Film Festival',
         result: 'won'
       },
       {
         award: 'Best Director',
-        festival: 'British Independent Film Festival, UK',
+        festival: 'British Independent Film Festival',
         result: 'won'
       },
       {
         award: 'Best Actress',
-        festival: 'British Independent Film Festival, UK',
+        festival: 'British Independent Film Festival',
         result: 'won'
       },
       {
         award: 'Best Short Film',
-        festival: 'Rushes Soho Shorts Festival, UK',
+        festival: 'Rushes Soho Shorts Festival',
         result: 'won'
       },
       {
         award: 'Best International Film',
-        festival: 'Tri Media Film Festival, USA',
+        festival: 'Tri Media Film Festival',
         result: 'won'
       },
       {
         award: 'Audience Award',
-        festival: 'Tri Media Film Festival, USA',
+        festival: 'Tri Media Film Festival',
         result: 'won'
       },
       {
         award: 'Best UK Short Film',
-        festival: 'Raindance Film Festival, UK',
+        festival: 'Raindance Film Festival',
         result: 'won'
       },
       {
         award: 'Best International Short Film',
-        festival: 'Cornwall Film Festival, UK',
+        festival: 'Cornwall Film Festival',
         result: 'won'
       },
       {
         award: 'Best Actress',
-        festival: 'Seattle Shorts Film Festival, USA',
+        festival: 'Seattle Shorts Film Festival',
         result: 'won'
       },
       {
         award: 'Audience Award',
-        festival: 'Prague Short Film Festival, Czech Republic',
+        festival: 'Prague Short Film Festival',
         result: 'won'
       },
       {
         award: 'Audience Award',
-        festival: 'Postira Film Festival, Croatia',
+        festival: 'Postira Film Festival',
         result: 'won'
       },
       {
         award: 'Best Narrative Short',
-        festival: 'Ojai Film Festival, USA',
+        festival: 'Ojai Film Festival',
         result: 'won'
       },
       {
         award: 'Best Fiction Film',
-        festival: 'Rouen Film Festival, France',
+        festival: 'Rouen Film Festival',
         result: 'won'
       },
       {
         award: 'Best British Short',
-        festival: 'British Independent Film Awards, UK',
+        festival: 'British Independent Film Awards',
         result: 'nominated'
       },
       {
         award: 'Live Action Short',
-        festival: 'Academy Awards, USA',
+        festival: 'Academy Awards',
         result: 'shortlisted'
       }
     ],
@@ -103,37 +103,37 @@ export const films = [
     awards: [
       {
         award: 'NFTS Special Mention',
-        festival: 'Encounters Film Festival, UK',
+        festival: 'Encounters Film Festival',
         result: 'won'
       },
       {
         award: 'Audience Award',
-        festival: 'Prix de Court Pathe, Switzerland',
+        festival: 'Prix de Court Pathe',
         result: 'won'
       },
       {
         award: 'Special Jury Award For Best Comedy',
-        festival: 'CFF, USA',
+        festival: 'CFF',
         result: 'won'
       },
       {
         award: 'Audience Choice Award',
-        festival: 'Soul 4 Reel, USA',
+        festival: 'Soul 4 Reel',
         result: 'won'
       },
       {
         award: 'Best Short Film',
-        festival: 'Time Film Festival, Switzerland',
+        festival: 'Time Film Festival',
         result: 'won'
       },
       {
         award: 'Best Short Film',
-        festival: 'Bratislava International Film Festival, Slovakia',
+        festival: 'Bratislava International Film Festival',
         result: 'won'
       },
       {
         award: 'Originality Award',
-        festival: 'Forster Film Festival, Australia',
+        festival: 'Forster Film Festival',
         result: 'won'
       }
     ],
