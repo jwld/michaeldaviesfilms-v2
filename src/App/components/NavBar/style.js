@@ -9,8 +9,13 @@ export const NavBar = styled.nav`
   padding: 1rem;
 
   ${media.mobile} {
+    background: #2a2f37;
+    bottom: 0;
     justify-content: center;
-    padding-bottom: 0;
+    padding: 0.5rem;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
   }
 `
 
