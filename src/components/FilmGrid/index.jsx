@@ -20,7 +20,7 @@ const Films = ({ films }) => (
 
       return (
         <SC.FilmTile key={film.key} to={`${BASES.FILM}/${film.key}`}>
-          <SC.FilmText>
+          <SC.FilmText title={`${film.title} • ${film.type}`}>
             <SC.FilmTitle>{film.title}</SC.FilmTitle> • {film.type}
           </SC.FilmText>
 
