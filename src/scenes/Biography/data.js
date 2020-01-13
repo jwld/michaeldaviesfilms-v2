@@ -329,5 +329,37 @@ export const films = [
     title: 'Jason, Jim & Me',
     type: 'Drama Documentary',
     vimeoId: '167788865'
+  },
+  {
+    company: 'Hartswood Films',
+    description:
+      'The life and death of the notorious WW1 fighter pilot, told by members of his family and descendants of those he shot down.',
+    key: 'baron',
+    production: '50 min BBC2',
+    reviews: [
+      {
+        review: 'Subtle and unbearably touching',
+        source: 'AA Gill - The Sunday Times'
+      },
+      {
+        review: 'Fascinating and well researched',
+        source: 'The Daily Mail'
+      },
+      {
+        review: 'A wonderful, poignant film',
+        source: 'The Times'
+      },
+      {
+        review: 'Intelligent and instructive',
+        source: 'The Sunday Telegraph'
+      },
+      {
+        review: 'A fascinating portrait of a legend',
+        source: 'The Daily Telegraph'
+      }
+    ],
+    title: 'The Red Baron',
+    type: 'Documentary',
+    vimeoId: '167788868'
   }
 ]
