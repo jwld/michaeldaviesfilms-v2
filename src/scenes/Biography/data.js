@@ -256,6 +256,66 @@ export const films = [
     vimeoId: '384417881'
   },
   {
+    company: 'Hartswood Films',
+    description:
+      'The life and death of the notorious WW1 fighter pilot, told by members of his family and descendants of those he shot down.',
+    key: 'baron',
+    production: '50 min BBC2',
+    reviews: [
+      {
+        review: 'Subtle and unbearably touching',
+        source: 'AA Gill - The Sunday Times'
+      },
+      {
+        review: 'Fascinating and well researched',
+        source: 'The Daily Mail'
+      },
+      {
+        review: 'A wonderful, poignant film',
+        source: 'The Times'
+      },
+      {
+        review: 'Intelligent and instructive',
+        source: 'The Sunday Telegraph'
+      },
+      {
+        review: 'A fascinating portrait of a legend',
+        source: 'The Daily Telegraph'
+      }
+    ],
+    title: 'The Red Baron',
+    type: 'Documentary',
+    vimeoId: '167788868'
+  },
+  {
+    company: 'Lion Television',
+    description:
+      'The life, loves, and mysterious death of pioneer aviatrix Amy Johnson.',
+    key: 'johnson',
+    production: '60 min Channel 4',
+    reviews: [
+      {
+        review: 'A wonderful piece of television',
+        source: 'The Guardian'
+      },
+      {
+        review: 'Enthralling',
+        source: 'The Daily Mail'
+      },
+      {
+        review: 'Intimate and engaging',
+        source: 'The Daily Telegraph'
+      },
+      {
+        review: 'A vivid dramatised documentary',
+        source: 'The Sunday Times'
+      }
+    ],
+    title: 'Jason, Jim & Me',
+    type: 'Drama Documentary',
+    vimeoId: '167788865'
+  },
+  {
     awards: [
       {
         award: 'Best Original Television Music',
@@ -301,66 +361,6 @@ export const films = [
     title: 'The War Behind The Wire',
     type: 'Documentary Series',
     vimeoId: '167788870'
-  },
-  {
-    company: 'Lion Television',
-    description:
-      'The life, loves, and mysterious death of pioneer aviatrix Amy Johnson.',
-    key: 'johnson',
-    production: '60 min Channel 4',
-    reviews: [
-      {
-        review: 'A wonderful piece of television',
-        source: 'The Guardian'
-      },
-      {
-        review: 'Enthralling',
-        source: 'The Daily Mail'
-      },
-      {
-        review: 'Intimate and engaging',
-        source: 'The Daily Telegraph'
-      },
-      {
-        review: 'A vivid dramatised documentary',
-        source: 'The Sunday Times'
-      }
-    ],
-    title: 'Jason, Jim & Me',
-    type: 'Drama Documentary',
-    vimeoId: '167788865'
-  },
-  {
-    company: 'Hartswood Films',
-    description:
-      'The life and death of the notorious WW1 fighter pilot, told by members of his family and descendants of those he shot down.',
-    key: 'baron',
-    production: '50 min BBC2',
-    reviews: [
-      {
-        review: 'Subtle and unbearably touching',
-        source: 'AA Gill - The Sunday Times'
-      },
-      {
-        review: 'Fascinating and well researched',
-        source: 'The Daily Mail'
-      },
-      {
-        review: 'A wonderful, poignant film',
-        source: 'The Times'
-      },
-      {
-        review: 'Intelligent and instructive',
-        source: 'The Sunday Telegraph'
-      },
-      {
-        review: 'A fascinating portrait of a legend',
-        source: 'The Daily Telegraph'
-      }
-    ],
-    title: 'The Red Baron',
-    type: 'Documentary',
-    vimeoId: '167788868'
   },
   {
     company: 'Hartswood Films',
