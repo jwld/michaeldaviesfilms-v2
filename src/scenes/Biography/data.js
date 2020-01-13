@@ -429,5 +429,14 @@ export const films = [
     title: 'The Secret Millionaire',
     type: 'Documentary',
     vimeoId: '384420711'
+  },
+  {
+    company: 'Hartswood Films',
+    description: 'The early life and loves of The Queen Mother.',
+    key: 'elizabeth',
+    production: '60 min BBC1',
+    subtitle: 'Documentary',
+    title: 'In Love With Elizabeth',
+    type: 'Documentary'
   }
 ]
