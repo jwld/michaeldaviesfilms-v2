@@ -38,9 +38,7 @@ const Film = () => {
             mozallowfullscreen={1}
             src={`https://player.vimeo.com/video/${section.vimeoId}/?title=0&byline=0&portrait=0`}
             webkitallowfullscreen={1}
-          >
-            ok
-          </iframe>
+          />
         </SC.VimeoFrame>
 
         <SC.SubtitleWrap>
