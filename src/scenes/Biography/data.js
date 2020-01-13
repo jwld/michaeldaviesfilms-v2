@@ -573,11 +573,11 @@ export const credits = [
     film: "The Blasphemer's Banquet - Tony Harrison"
   },
   {
-    channel: 'BBC1',
+    channel: 'BBC2',
     film: 'Enterprise Culture - Weighing Up The Risks'
   },
   {
-    channel: 'BBC',
+    channel: 'BBC2',
     film: 'Enterprise Culture - Changing The Village'
   }
 ]
