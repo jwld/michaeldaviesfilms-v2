@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { components } from 'style'
+import { components, media } from 'style'
 
 export const BiographyPage = styled(components.PageWrap)`
   display: grid;
@@ -11,9 +11,17 @@ export const GridAboutWrap = styled.div`
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: 1fr 29rem;
+
+  ${media.tablet} {
+    grid-template-columns: auto;
+  }
 `
 
-export const TextWrap = components.TextWrap
+export const TextWrap = styled(components.TextWrap)`
+  ${media.tablet} {
+    grid-row: 1;
+  }
+`
 
 export const CreditsWrap = styled.div`
   display: grid;
