@@ -1,5 +1,5 @@
 import { cover } from 'polished'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 import { components, mixins } from 'style'
 
@@ -26,6 +26,13 @@ export const Title = styled.h1`
   font-weight: 400;
 `
 
+const backupStyle = css`
+  background-color: transparent;
+  background-image: url('images/thumbs/${props => props.image}.png');
+  background-position: bottom;
+  background-size: cover;
+`
+
 export const VimeoFrame = styled.div`
   background: black;
   border-radius: 0.4rem;
@@ -33,6 +40,8 @@ export const VimeoFrame = styled.div`
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
+
+  ${props => props.noVideo && backupStyle};
 
   iframe {
     ${cover()};

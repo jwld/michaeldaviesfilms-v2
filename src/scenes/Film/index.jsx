@@ -32,13 +32,15 @@ const Film = () => {
       <SC.VideoWrap>
         <SC.Title>{section.title}</SC.Title>
 
-        <SC.VimeoFrame>
-          <iframe
-            allowFullScreen={1}
-            mozallowfullscreen={1}
-            src={`https://player.vimeo.com/video/${section.vimeoId}/?title=0&byline=0&portrait=0`}
-            webkitallowfullscreen={1}
-          />
+        <SC.VimeoFrame image={film.key} noVideo={!section.vimeoId}>
+          {section.vimeoId && (
+            <iframe
+              allowFullScreen={1}
+              mozallowfullscreen={1}
+              src={`https://player.vimeo.com/video/${section.vimeoId}/?title=0&byline=0&portrait=0`}
+              webkitallowfullscreen={1}
+            />
+          )}
         </SC.VimeoFrame>
 
         <SC.SubtitleWrap>
