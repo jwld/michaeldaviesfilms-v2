@@ -301,5 +301,33 @@ export const films = [
     title: 'The War Behind The Wire',
     type: 'Documentary Series',
     vimeoId: '167788870'
+  },
+  {
+    company: 'Lion Television',
+    description:
+      'The life, loves, and mysterious death of pioneer aviatrix Amy Johnson.',
+    key: 'johnson',
+    production: '60 min Channel 4',
+    reviews: [
+      {
+        review: 'A wonderful piece of television',
+        source: 'The Guardian'
+      },
+      {
+        review: 'Enthralling',
+        source: 'The Daily Mail'
+      },
+      {
+        review: 'Intimate and engaging',
+        source: 'The Daily Telegraph'
+      },
+      {
+        review: 'A vivid dramatised documentary',
+        source: 'The Sunday Times'
+      }
+    ],
+    title: 'Jason, Jim & Me',
+    type: 'Drama Documentary',
+    vimeoId: '167788865'
   }
 ]
