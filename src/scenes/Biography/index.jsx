@@ -16,15 +16,13 @@ const compileCredits = () => {
 
 const Biography = () => (
   <SC.BiographyPage>
-    <SC.GridAboutWrap>
-      <FilmGrid films={films} />
+    <SC.TextWrap>
+      {text.map((para, index) => (
+        <p dangerouslySetInnerHTML={{ __html: para }} key={index} />
+      ))}
+    </SC.TextWrap>
 
-      <SC.TextWrap>
-        {text.map((para, index) => (
-          <p dangerouslySetInnerHTML={{ __html: para }} key={index} />
-        ))}
-      </SC.TextWrap>
-    </SC.GridAboutWrap>
+    <FilmGrid films={films} />
 
     <SC.CreditsWrap>
       <SC.CreditsHeader>Additional work</SC.CreditsHeader>
