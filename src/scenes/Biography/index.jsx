@@ -18,7 +18,7 @@ const Biography = () => (
     </SC.GridAboutWrap>
 
     <SC.CreditsWrap>
-      <SC.CreditsHeader>Additional credits</SC.CreditsHeader>
+      <SC.CreditsHeader>Additional work</SC.CreditsHeader>
 
       <SC.CreditsList>
         {credits.map(credit => (
