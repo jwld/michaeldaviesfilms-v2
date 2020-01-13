@@ -2,7 +2,7 @@ import { cover, ellipsis } from 'polished'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
-import { mixins } from 'style'
+import { media, mixins } from 'style'
 
 export const FilmsSection = styled.section`
   align-content: flex-start;
@@ -12,6 +12,10 @@ export const FilmsSection = styled.section`
     auto-fill,
     minmax(${props => props.tileMin}, 1fr)
   );
+
+  ${media.mobile} {
+    grid-template-columns: auto;
+  }
 `
 
 export const FilmTile = styled(Link)`

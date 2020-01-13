@@ -1,10 +1,17 @@
 import { NavLink } from 'react-router-dom'
 import styled, { css } from 'styled-components'
 
+import { media } from 'style'
+
 export const NavBar = styled.nav`
   align-items: center;
   display: flex;
   padding: 1rem;
+
+  ${media.mobile} {
+    justify-content: center;
+    padding-bottom: 0;
+  }
 `
 
 const linkHorizPadding = '1.5rem'
@@ -19,6 +26,10 @@ export const LeftLink = styled(NavLink)`
   font-weight: 400;
   margin-right: auto;
   text-transform: uppercase;
+
+  ${media.mobile} {
+    display: none;
+  }
 `
 
 export const linkHoverStyle = css`

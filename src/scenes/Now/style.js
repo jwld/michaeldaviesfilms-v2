@@ -1,11 +1,15 @@
 import styled from 'styled-components'
 
-import { components, mixins } from 'style'
+import { components, media, mixins } from 'style'
 
 export const NowPage = styled(components.PageWrap)`
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: 40rem 1fr;
+
+  ${media.tablet} {
+    grid-template-columns: auto;
+  }
 `
 
 export const AboutSection = styled.section`
@@ -20,6 +24,10 @@ export const PortraitTitleWrap = styled.div`
   grid-template-columns: auto auto;
   margin: 0 auto;
   margin-top: 1.5rem;
+
+  ${media.mobile} {
+    grid-template-columns: auto;
+  }
 `
 
 const portraitSize = '25rem'
@@ -39,6 +47,11 @@ export const Title = styled.span`
 
   font-style: italic;
   text-align: center;
+  width: 6rem;
+
+  ${media.mobile} {
+    width: auto;
+  }
 `
 
 export const TextWrap = components.TextWrap
