@@ -56,7 +56,7 @@ export const ProductionInfo = styled.span``
 export const Accolades = styled.div`
   align-content: flex-start;
   display: grid;
-  grid-gap: 1.5rem;
+  grid-gap: 2.5rem;
   padding-top: 3.5rem;
 `
 
@@ -110,7 +110,7 @@ export const Festival = styled.span`
 
 export const ReviewsWrap = styled.div`
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 1.5rem;
 `
 
 export const Review = styled.div`
