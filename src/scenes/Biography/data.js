@@ -438,5 +438,33 @@ export const films = [
     subtitle: 'Documentary',
     title: 'In Love With Elizabeth',
     type: 'Documentary'
+  },
+  {
+    company: 'Hartswood Films',
+    description:
+      'Observational comedy documentary following garden designer Stephen Woodham’s year-long preparation of a garden for the Chelsea Flower Show.',
+    key: 'chelsea',
+    production: '60 min ITV1',
+    reviews: [
+      {
+        review: 'A copper bottomed delight',
+        source: 'The Times'
+      },
+      {
+        review: 'An artfully made, stylish film',
+        source: 'The Daily Telegraph'
+      },
+      {
+        review: 'Surprising, touching, full of wry humour',
+        source: 'Hello Magazine'
+      },
+      {
+        review: 'A very classy documentary',
+        source: 'The Financial Times'
+      }
+    ],
+    title: 'Going To Chelsea',
+    type: 'Documentary',
+    vimeoId: '167788824'
   }
 ]
