@@ -5,6 +5,15 @@ import { FilmGrid } from 'components'
 import { credits, films, text } from './data'
 import * as SC from './style'
 
+const compileCredits = () => {
+  return credits.reduce((acc, credit, index) => {
+    let string = index > 0 ? ' • ' : ''
+    string += `<i>${credit.film}</i> (${credit.channel})`
+
+    return (acc += string)
+  }, '')
+}
+
 const Biography = () => (
   <SC.BiographyPage>
     <SC.GridAboutWrap>
@@ -20,14 +29,9 @@ const Biography = () => (
     <SC.CreditsWrap>
       <SC.CreditsHeader>Additional work</SC.CreditsHeader>
 
-      <SC.CreditsList>
-        {credits.map(credit => (
-          <SC.Credit key={credit.film}>
-            <SC.CreditFilm>{credit.film}</SC.CreditFilm>
-            <SC.CreditChannel>({credit.channel})</SC.CreditChannel>
-          </SC.Credit>
-        ))}
-      </SC.CreditsList>
+      <SC.CreditsList
+        dangerouslySetInnerHTML={{ __html: compileCredits(credits) }}
+      />
     </SC.CreditsWrap>
   </SC.BiographyPage>
 )
