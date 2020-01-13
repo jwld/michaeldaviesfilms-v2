@@ -43,7 +43,7 @@ export const VimeoFrame = styled.div`
 
 export const SubtitleWrap = styled.div`
   display: grid;
-  grid-gap: 1.5rem;
+  grid-gap: 3rem;
   grid-template-columns: 1fr auto;
 `
 
