@@ -4,29 +4,34 @@ import { components, media, mixins } from 'style'
 
 export const NowPage = styled(components.PageWrap)`
   display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: 40rem 1fr;
+  grid-gap: 4rem;
 
-  ${media.tablet} {
-    grid-template-columns: auto;
+  ${media.m700} {
+    grid-gap: 2rem;
   }
 `
 
 export const AboutSection = styled.section`
-  align-content: flex-start;
+  align-content: center;
   display: grid;
-  grid-gap: 2rem;
+  grid-gap: 4rem;
+  grid-template-columns: auto auto;
+
+  ${media.m700} {
+    grid-gap: 1.5rem;
+    grid-template-columns: auto;
+  }
 `
 
 export const PortraitTitleWrap = styled.div`
-  display: grid;
-  grid-gap: 2rem;
-  grid-template-columns: auto auto;
-  margin: 0 auto;
-  margin-top: 1.5rem;
+  ${mixins.flexVertical};
 
-  ${media.mobile} {
-    grid-template-columns: auto;
+  align-items: flex-end;
+  margin-left: auto;
+
+  ${media.m700} {
+    align-items: center;
+    margin: 0;
   }
 `
 
@@ -45,13 +50,19 @@ export const Portrait = styled.div`
 export const Title = styled.span`
   ${mixins.flex};
 
-  font-style: italic;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-top: 1rem;
   text-align: center;
-  width: 6rem;
-
-  ${media.mobile} {
-    width: auto;
-  }
+  width: 100%;
 `
 
-export const TextWrap = components.TextWrap
+export const TextWrap = styled(components.TextWrap)`
+  margin-right: auto;
+  max-width: 50rem;
+
+  ${media.m700} {
+    margin: 0;
+    max-width: none;
+  }
+`
