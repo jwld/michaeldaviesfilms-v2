@@ -412,5 +412,22 @@ export const films = [
     title: 'The National Trust',
     type: 'Drama',
     vimeoId: '167788867'
+  },
+  {
+    company: 'RDF',
+    description:
+      'Effervescent former nurse, Roisin Isaacs, gives it all away in Dundee.',
+    key: 'millionaire',
+    production: '50 min Channel 4',
+    reviews: [
+      {
+        review:
+          'This is great! An exemplary example of how to execute a Secret Millionaire. Who is the Director please?',
+        source: 'Commissioning Editor, Channel 4'
+      }
+    ],
+    title: 'The Secret Millionaire',
+    type: 'Documentary',
+    vimeoId: '384420711'
   }
 ]
