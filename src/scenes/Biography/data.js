@@ -50,7 +50,7 @@ export const films = [
           "Reboot of the popular children's series <i>Tracy Beaker</i>.",
         production: '5 x 30 mins',
         title: 'Tracy Beaker Returns, Series 1',
-        vimeoId: ''
+        vimeoId: '384411284'
       },
       {
         awards: [
@@ -78,7 +78,7 @@ export const films = [
         company: 'BBC',
         production: '5 x 30 mins',
         title: 'Tracy Beaker Returns, Series 2',
-        vimeoId: ''
+        vimeoId: '384411808'
       },
       {
         awards: [
@@ -96,7 +96,7 @@ export const films = [
         company: 'BBC',
         production: '4 x 30 mins',
         title: 'Tracy Beaker Returns, Series 3',
-        vimeoId: ''
+        vimeoId: '384412835'
       }
     ],
     title: 'Tracy Beaker Returns',
