@@ -1,7 +1,7 @@
 import { cover } from 'polished'
 import styled, { css } from 'styled-components'
 
-import { components, mixins } from 'style'
+import { components, media, mixins } from 'style'
 
 export const FilmPage = styled(components.PageWrap)`
   display: grid;
@@ -12,6 +12,11 @@ export const PageSection = styled.section`
   display: grid;
   grid-gap: 2rem;
   grid-template-columns: 1fr 47.5rem;
+
+  ${media.tablet} {
+    grid-gap: 0;
+    grid-template-columns: auto;
+  }
 `
 
 export const VideoWrap = styled.div`
@@ -54,10 +59,20 @@ export const SubtitleWrap = styled.div`
   display: grid;
   grid-gap: 3rem;
   grid-template-columns: 1fr auto;
+
+  ${media.tablet} {
+    grid-gap: 0.3rem;
+    grid-template-columns: auto;
+    padding-left: 0.7rem;
+  }
 `
 
 export const Blurb = styled.span`
   padding-left: 0.7rem;
+
+  ${media.tablet} {
+    padding-left: 0;
+  }
 `
 
 export const ProductionInfo = styled.span``
@@ -67,12 +82,28 @@ export const Accolades = styled.div`
   display: grid;
   grid-gap: 2.5rem;
   padding-top: 3.5rem;
+
+  ${media.tablet} {
+    padding-top: 2rem;
+  }
 `
 
 export const AwardsWrap = styled.div`
   display: grid;
   grid-gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
+
+  ${media.tablet} {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 650px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
 `
 
 export const Award = styled.div`
@@ -120,6 +151,11 @@ export const Festival = styled.span`
 export const ReviewsWrap = styled.div`
   display: grid;
   grid-gap: 1.5rem;
+
+  ${media.tablet} {
+    padding-left: 1.5rem;
+    width: 100%;
+  }
 `
 
 export const Review = styled.div`
