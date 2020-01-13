@@ -268,6 +268,36 @@ export const films = [
       'Extraordinary stories of captivity and escape from German and Italian prison camps during WW2, told by the men who took part. Audience 4 million.',
     key: 'war',
     production: '2 x 60 min BBC2',
+    reviews: [
+      {
+        review: 'Fresh, new, thrilling, tragic, compelling',
+        source: 'The Independent'
+      },
+      {
+        review: 'Ultra-gripping. This tale has everything. An unmissable film',
+        source: 'The Daily Mail'
+      },
+      {
+        review: 'A compelling piece of storytelling',
+        source: 'The Daily Telegraph'
+      },
+      {
+        review: 'Outstanding',
+        source: 'The Financial Times'
+      },
+      {
+        review: 'A remarkable documentary series',
+        source: 'Evening Standard'
+      },
+      {
+        review: 'Even more stunning than the classic feature film',
+        source: 'The Sun'
+      },
+      {
+        review: 'Absorbing and moving',
+        source: 'The Sunday Times'
+      }
+    ],
     title: 'The War Behind The Wire',
     type: 'Documentary Series',
     vimeoId: '167788870'
