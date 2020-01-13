@@ -501,3 +501,25 @@ export const films = [
     vimeoId: '167774585'
   }
 ]
+
+export const credits = [
+  'Shark Island - series (Five)',
+  'Ten Pound Poms (BBC1)',
+  'Royal Wedding Bells (BBC1)',
+  'The Falklands (BBC2)',
+  'Nagasaki Journey (BBC2)',
+  'Innocence Lost (BBC2)',
+  'Small Objects Of Desire - The Handgun (BBC2)',
+  "Poet's News - series (BBC2)",
+  'Scoop (BBC2)',
+  '999 (BBC1)',
+  'Comic Relief (BBC1)',
+  'Perpetual Motion - The London Taxi (BBC2)',
+  'Talking To Myself - Roger Cooper, Anita Roddick, Duncan Campbell, Sir Bernard Ingham, Claire Short, Esther Rantzen (BBC2)',
+  'A Futile War - Judge James Pickles (BBC1)',
+  'Talking To Myself - Enoch Powell, Linzi Drew, Judge James Pickles (BBC2)',
+  'Small Objects Of Desire - The Aspirin (BBC2)',
+  "The Blasphemer's Banquet - Tony Harrison (BBC1)",
+  'Enterprise Culture - Weighing Up The Risks (BBC1)',
+  'Enterprise Culture - Changing The Village (BBC1)'
+]
