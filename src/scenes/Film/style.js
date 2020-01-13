@@ -13,7 +13,7 @@ export const PageSection = styled.section`
   grid-gap: 2rem;
   grid-template-columns: 1fr 47.5rem;
 
-  ${media.tablet} {
+  ${media.m1150} {
     grid-gap: 0;
     grid-template-columns: auto;
   }
@@ -85,7 +85,7 @@ export const Accolades = styled.div`
   grid-gap: 2.5rem;
   padding-top: 3.5rem;
 
-  ${media.tablet} {
+  ${media.m1150} {
     padding-top: 2rem;
   }
 `
@@ -93,18 +93,11 @@ export const Accolades = styled.div`
 export const AwardsWrap = styled.div`
   display: grid;
   grid-gap: 1.5rem;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
 
-  ${media.tablet} {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  @media (max-width: 650px) {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  @media (max-width: 480px) {
-    grid-template-columns: repeat(1, 1fr);
+  ${media.mobile} {
+    margin: 0 auto;
+    max-width: 25rem;
   }
 `
 
