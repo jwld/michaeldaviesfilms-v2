@@ -10,7 +10,8 @@ const Now = () => (
     <SC.AboutSection>
       <SC.PortraitTitleWrap>
         <SC.Portrait />
-        <SC.Title>Writer & Director</SC.Title>
+        <SC.Title>Michael Davies</SC.Title>
+        <SC.JobTitle>Writer & Director</SC.JobTitle>
       </SC.PortraitTitleWrap>
 
       <SC.TextWrap>

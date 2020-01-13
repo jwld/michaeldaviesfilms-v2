@@ -50,9 +50,18 @@ export const Portrait = styled.div`
 export const Title = styled.span`
   ${mixins.flex};
 
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 400;
   margin-top: 1rem;
+  text-align: center;
+  width: 100%;
+`
+
+export const JobTitle = styled.span`
+  ${mixins.flex};
+
+  font-size: 1.6rem;
+  font-style: italic;
   text-align: center;
   width: 100%;
 `
