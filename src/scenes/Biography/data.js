@@ -175,5 +175,44 @@ export const films = [
     title: 'The Welsh Great Escape',
     type: 'Drama Documentary',
     vimeoId: '167788873'
+  },
+  {
+    awards: [
+      {
+        award: 'Best Direction (Series)',
+        festival: 'Canadian Gemini Awards',
+        result: 'winner'
+      }
+    ],
+    company: 'Tigress Productions',
+    description:
+      "The bravest man in television tackles the world's deadliest snakes. Filmed on location in Borneo, Peru, Egypt, Sudan and South Africa.",
+    key: 'snakemaster',
+    production: '4 x 60 and 1 x 90 min Discovery / Five',
+    reviews: [
+      {
+        review: 'Hellishly effective',
+        source: 'The Times'
+      },
+      {
+        review: 'Informative, impressive, terrifying',
+        source: 'The Daily Telegraph'
+      },
+      {
+        review: 'A wildlife comedy adventure',
+        source: 'The Sunday Times'
+      },
+      {
+        review: 'Hilariously tongue in cheek',
+        source: 'The Daily Mail'
+      },
+      {
+        review: 'Five star entertainment',
+        source: 'The Mail On Sunday'
+      }
+    ],
+    title: 'Snakemaster',
+    type: 'Dramatised Adventure',
+    vimeoId: '167788869'
   }
 ]
