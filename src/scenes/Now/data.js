@@ -149,7 +149,8 @@ export const films = [
     vimeoId: '167904928'
   },
   {
-    description: 'RADA film. Romantic comedy.',
+    description:
+      'Romantic comedy, produced by RADA, featuring six recent graduates - and rising stars - Katie Smale, Jack Bardoe, Jamie Bogyo, Cayvan Coates, Liadan Dunlea and Jack Flammiger.',
     key: 'mirror',
     title: 'Mirror Mirror',
     type: 'Short Film',
