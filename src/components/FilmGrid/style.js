@@ -21,7 +21,7 @@ export const Film = styled.div`
   ${mixins.flex};
 
   background-color: black;
-  background-image: url('images/${props => props.image}.png');
+  background-image: url('images/thumbs/${props => props.image}.png');
   background-position: center;
   background-size: cover;
   border-radius: 0.3rem;
