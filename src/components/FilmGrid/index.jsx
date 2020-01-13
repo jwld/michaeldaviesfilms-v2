@@ -13,8 +13,8 @@ const countAwards = film => {
     : 0
 }
 
-const Films = ({ films }) => (
-  <SC.FilmsSection>
+const Films = ({ films, tileMin }) => (
+  <SC.FilmsSection tileMin={tileMin}>
     {films.map(film => {
       const awardCount = countAwards(film)
 
@@ -41,7 +41,12 @@ const filmPropType = PropTypes.shape({
 })
 
 Films.propTypes = {
-  films: PropTypes.arrayOf(filmPropType).isRequired
+  films: PropTypes.arrayOf(filmPropType).isRequired,
+  tileMin: PropTypes.string
+}
+
+Films.defaultProps = {
+  tileMin: '30rem'
 }
 
 export default Films

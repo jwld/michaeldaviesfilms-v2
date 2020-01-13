@@ -8,7 +8,10 @@ export const FilmsSection = styled.section`
   align-content: flex-start;
   display: grid;
   grid-gap: 1rem;
-  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(${props => props.tileMin}, 1fr)
+  );
 `
 
 export const FilmTile = styled(Link)`

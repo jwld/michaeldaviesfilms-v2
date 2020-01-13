@@ -23,7 +23,7 @@ const Now = () => (
       </SC.TextWrap>
     </SC.AboutSection>
 
-    <FilmGrid films={films} />
+    <FilmGrid films={films} tileMin="35rem" />
   </SC.NowPage>
 )
 
