@@ -1,4 +1,4 @@
-import { cover } from 'polished'
+import { cover, ellipsis } from 'polished'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
@@ -35,6 +35,8 @@ export const Film = styled.div`
 `
 
 export const FilmText = styled.div`
+  ${ellipsis()};
+
   bottom: 0;
   padding: 0.2rem 0.7rem;
   position: absolute;
