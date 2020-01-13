@@ -54,24 +54,16 @@ export const FilmTitle = styled.span`
   margin-right: 0.2rem;
 `
 
-const countSize = '6rem'
-const countOffset = '1rem'
+const wreathSize = '5rem'
 
-export const AwardCount = styled.div`
-  ${mixins.flex};
-
-  background: white;
-  background-image: url('images/wreath.png');
+export const Wreath = styled.div`
+  background-image: url('images/full-wreath.png');
   background-position: center 90%;
   background-repeat: no-repeat;
-  background-size: 88%;
-  border-radius: 50%;
-  bottom: ${countOffset};
-  box-shadow: 0 0.5rem 1rem -0.5rem black;
-  color: #ccad00;
-  font-weight: 400;
-  height: ${countSize};
+  background-size: cover;
+  height: ${wreathSize};
   position: absolute;
-  right: ${countOffset};
-  width: ${countSize};
+  right: 1rem;
+  top: 1rem;
+  width: ${wreathSize};
 `
