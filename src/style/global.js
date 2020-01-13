@@ -12,7 +12,7 @@ const globalStyle = css`
 
   #root {
     margin: 0 auto;
-    max-width: 150rem;
+    max-width: 140rem;
   }
 
   a {
