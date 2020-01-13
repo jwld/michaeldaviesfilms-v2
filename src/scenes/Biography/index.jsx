@@ -22,7 +22,7 @@ const Biography = () => (
 
       <SC.CreditsList>
         {credits.map(credit => (
-          <SC.Credit key={credit}>
+          <SC.Credit key={credit.film}>
             <SC.CreditFilm>{credit.film}</SC.CreditFilm>
             <SC.CreditChannel>({credit.channel})</SC.CreditChannel>
           </SC.Credit>
