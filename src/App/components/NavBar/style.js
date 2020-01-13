@@ -1,12 +1,13 @@
 import { NavLink } from 'react-router-dom'
 import styled, { css } from 'styled-components'
 
-import { media } from 'style'
+import { media, vars } from 'style'
 
 export const NavBar = styled.nav`
   align-items: center;
   display: flex;
-  padding: 1rem;
+  height: ${vars.navBarHeight};
+  padding: 0 1rem;
 
   ${media.mobile} {
     background: #2a2f37;
