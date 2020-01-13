@@ -1,1 +1,1 @@
-export const tablet = '@media (max-width: 1100px)'
+export const tablet = '@media (max-width: 1000px)'
