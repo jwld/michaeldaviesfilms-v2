@@ -22,7 +22,7 @@ export const Film = styled.div`
 
   background-color: black;
   background-image: url('images/thumbs/${props => props.image}.png');
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   border-radius: 0.3rem;
   box-shadow: 0 0.8rem 1rem -0.5rem black;
