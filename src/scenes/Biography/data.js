@@ -466,5 +466,38 @@ export const films = [
     title: 'Going To Chelsea',
     type: 'Documentary',
     vimeoId: '167788824'
+  },
+  {
+    company: 'BBC',
+    description:
+      'Stories of love, loss and hope, and the tragic consequences of the ‘policy of secrecy’ that blighted the lives of many Barnardo’s Children. Average audience 7 million.',
+    key: 'barnardos',
+    production: '2 x 50 min BBC1',
+    reviews: [
+      {
+        review:
+          'More tears have flowed because of this film than for any other in the recent history of television',
+        source: 'Fay Weldon - Evening Standard'
+      },
+      {
+        review: 'I realised I was witnessing a remarkable documentary',
+        source: 'The Daily Mirror'
+      },
+      {
+        review: 'Moving, fascinating and absorbing. Compulsive viewing',
+        source: 'The Daily Telegraph'
+      },
+      {
+        review: 'A superbly constructed film',
+        source: 'Evening Standard'
+      },
+      {
+        review: 'The film that made the nation cry',
+        source: 'The Daily Express'
+      }
+    ],
+    title: "Barnardo's Children",
+    type: 'Documentary Series',
+    vimeoId: '167774585'
   }
 ]
