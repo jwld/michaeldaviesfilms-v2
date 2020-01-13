@@ -57,8 +57,8 @@ export const VimeoFrame = styled.div`
 
 export const SubtitleWrap = styled.div`
   display: grid;
-  grid-gap: 3rem;
-  grid-template-columns: 1fr auto;
+  grid-gap: 2.5rem;
+  grid-template-columns: 3fr 2fr;
 
   ${media.tablet} {
     grid-gap: 0.3rem;
@@ -75,7 +75,9 @@ export const Blurb = styled.span`
   }
 `
 
-export const ProductionInfo = styled.span``
+export const ProductionInfo = styled.span`
+  text-align: right;
+`
 
 export const Accolades = styled.div`
   align-content: flex-start;
