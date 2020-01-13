@@ -5,6 +5,12 @@ import { BASES } from 'constants/routes'
 
 import * as SC from './style'
 
+const hasAwards = film => {
+  return film.sections
+    ? film.sections.reduce((acc, section) => acc || !!section.awards, false)
+    : !!film.awards
+}
+
 const Films = ({ films, tileMin }) => (
   <SC.FilmsSection tileMin={tileMin}>
     {films.map(film => (
@@ -13,7 +19,7 @@ const Films = ({ films, tileMin }) => (
           <SC.FilmTitle>{film.title}</SC.FilmTitle>
         </SC.FilmText>
 
-        <SC.Film image={film.key}>{film.awards && <SC.Wreath />}</SC.Film>
+        <SC.Film image={film.key}>{hasAwards(film) && <SC.Wreath />}</SC.Film>
       </SC.FilmTile>
     ))}
   </SC.FilmsSection>
