@@ -503,23 +503,81 @@ export const films = [
 ]
 
 export const credits = [
-  'Shark Island - series (Five)',
-  'Ten Pound Poms (BBC1)',
-  'Royal Wedding Bells (BBC1)',
-  'The Falklands (BBC2)',
-  'Nagasaki Journey (BBC2)',
-  'Innocence Lost (BBC2)',
-  'Small Objects Of Desire - The Handgun (BBC2)',
-  "Poet's News - series (BBC2)",
-  'Scoop (BBC2)',
-  '999 (BBC1)',
-  'Comic Relief (BBC1)',
-  'Perpetual Motion - The London Taxi (BBC2)',
-  'Talking To Myself - Roger Cooper, Anita Roddick, Duncan Campbell, Sir Bernard Ingham, Claire Short, Esther Rantzen (BBC2)',
-  'A Futile War - Judge James Pickles (BBC1)',
-  'Talking To Myself - Enoch Powell, Linzi Drew, Judge James Pickles (BBC2)',
-  'Small Objects Of Desire - The Aspirin (BBC2)',
-  "The Blasphemer's Banquet - Tony Harrison (BBC1)",
-  'Enterprise Culture - Weighing Up The Risks (BBC1)',
-  'Enterprise Culture - Changing The Village (BBC1)'
+  {
+    channel: 'Five',
+    film: 'Shark Island - series'
+  },
+  {
+    channel: 'BBC1',
+    film: 'Ten Pound Poms'
+  },
+  {
+    channel: 'BBC1',
+    film: 'Royal Wedding Bells'
+  },
+  {
+    channel: 'BBC2',
+    film: 'The Falklands'
+  },
+  {
+    channel: 'BBC2',
+    film: 'Nagasaki Journey'
+  },
+  {
+    channel: 'BBC2',
+    film: 'Innocence Lost'
+  },
+  {
+    channel: 'BBC2',
+    film: 'Small Objects Of Desire - The Handgun'
+  },
+  {
+    channel: 'BBC2',
+    film: "Poet's News - series"
+  },
+  {
+    channel: 'BBC2',
+    film: 'Scoop'
+  },
+  {
+    channel: 'BBC1',
+    film: '999'
+  },
+  {
+    channel: 'BBC1',
+    film: 'Comic Relief'
+  },
+  {
+    channel: 'BBC2',
+    film: 'Perpetual Motion - The London Taxi'
+  },
+  {
+    channel: 'BBC2',
+    film:
+      'Talking To Myself - Roger Cooper, Anita Roddick, Duncan Campbell, Sir Bernard Ingham, Claire Short, Esther Rantzen'
+  },
+  {
+    channel: 'BBC1',
+    film: 'A Futile War - Judge James Pickles'
+  },
+  {
+    channel: 'BBC2',
+    film: 'Talking To Myself - Enoch Powell, Linzi Drew, Judge James Pickles'
+  },
+  {
+    channel: 'BBC2',
+    film: 'Small Objects Of Desire - The Aspirin'
+  },
+  {
+    channel: 'BBC1',
+    film: "The Blasphemer's Banquet - Tony Harrison"
+  },
+  {
+    channel: 'BBC1',
+    film: 'Enterprise Culture - Weighing Up The Risks'
+  },
+  {
+    channel: 'BBC',
+    film: 'Enterprise Culture - Changing The Village'
+  }
 ]

@@ -2,18 +2,33 @@ import React from 'react'
 
 import { FilmGrid } from 'components'
 
-import { films, text } from './data'
+import { credits, films, text } from './data'
 import * as SC from './style'
 
 const Biography = () => (
   <SC.BiographyPage>
-    <FilmGrid films={films} />
+    <SC.GridAboutWrap>
+      <FilmGrid films={films} />
 
-    <SC.TextWrap>
-      {text.map((para, index) => (
-        <p dangerouslySetInnerHTML={{ __html: para }} key={index} />
-      ))}
-    </SC.TextWrap>
+      <SC.TextWrap>
+        {text.map((para, index) => (
+          <p dangerouslySetInnerHTML={{ __html: para }} key={index} />
+        ))}
+      </SC.TextWrap>
+    </SC.GridAboutWrap>
+
+    <SC.CreditsWrap>
+      <SC.CreditsHeader>Additional credits</SC.CreditsHeader>
+
+      <SC.CreditsList>
+        {credits.map(credit => (
+          <SC.Credit key={credit}>
+            <SC.CreditFilm>{credit.film}</SC.CreditFilm>
+            <SC.CreditChannel>({credit.channel})</SC.CreditChannel>
+          </SC.Credit>
+        ))}
+      </SC.CreditsList>
+    </SC.CreditsWrap>
   </SC.BiographyPage>
 )
 
