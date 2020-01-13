@@ -361,5 +361,49 @@ export const films = [
     title: 'The Red Baron',
     type: 'Documentary',
     vimeoId: '167788868'
+  },
+  {
+    company: 'Hartswood Films',
+    description:
+      'The remarkable stories of nine Chelsea Pensioners who took part in battles that changed history. Made for Remembrance Day.',
+    key: 'officers',
+    production: '60 min BBC1',
+    reviews: [
+      {
+        review: 'An elegiacally beautiful documentary',
+        source: 'The Daily Telegraph'
+      },
+      {
+        review: 'Sensitive, respectful, deeply moving',
+        source: 'The Guardian'
+      },
+      {
+        review: 'Hauntingly beautiful',
+        source: 'The Sunday Times'
+      },
+      {
+        review: 'A remarkable documentary',
+        source: 'Evening Standard'
+      },
+      {
+        review: 'A beautiful and affecting film',
+        source: 'The Daily Mail'
+      },
+      {
+        review: 'Immensely touching',
+        source: 'The Sunday Telegraph'
+      },
+      {
+        review: 'A wonderful documentary',
+        source: 'The Daily Mirror'
+      },
+      {
+        review: 'Respectful, moving, and affectionate',
+        source: 'The Mail On Sunday'
+      }
+    ],
+    title: 'Officers & Gentlemen',
+    type: 'Documentary',
+    vimeoId: '167788866'
   }
 ]
