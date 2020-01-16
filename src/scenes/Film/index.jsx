@@ -28,6 +28,9 @@ const Film = () => {
   )
 
   const renderSection = section => {
+    let description = section.type ? `${section.type}. ` : ''
+    if (section.description) description += section.description
+
     const hasProduction = !!section.company || !!section.production
 
     return (
@@ -47,9 +50,7 @@ const Film = () => {
           </SC.VimeoFrame>
 
           <SC.SubtitleWrap hasProduction={hasProduction}>
-            <SC.Blurb
-              dangerouslySetInnerHTML={{ __html: section.description }}
-            />
+            <SC.Blurb dangerouslySetInnerHTML={{ __html: description }} />
             {hasProduction && (
               <SC.ProductionInfo>
                 {section.company && section.company}
