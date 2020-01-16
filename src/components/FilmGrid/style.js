@@ -18,9 +18,15 @@ export const FilmsSection = styled.section`
   }
 `
 
+const filmTitleHeight = '2.5rem'
+
 export const FilmTile = styled(Link)`
   padding-bottom: 56.25%;
   position: relative;
+
+  ${media.mobile} {
+    padding-bottom: calc(56.25% + ${filmTitleHeight});
+  }
 `
 
 export const Film = styled.div`
@@ -38,7 +44,11 @@ export const Film = styled.div`
   transition: 0.2s;
 
   ${FilmTile}:hover & {
-    bottom: 2.5rem;
+    bottom: ${filmTitleHeight};
+  }
+
+  ${media.mobile} {
+    bottom: ${filmTitleHeight};
   }
 `
 
