@@ -11,7 +11,7 @@ const compileCredits = () => {
     string += `<i>${credit.film}</i> (${credit.channel})`
 
     return (acc += string)
-  }, '')
+  }, '<b>ADDITIONAL WORK</b> ')
 }
 
 const Biography = () => (
@@ -24,13 +24,9 @@ const Biography = () => (
 
     <FilmGrid films={films} />
 
-    <SC.CreditsWrap>
-      <SC.CreditsHeader>Additional work</SC.CreditsHeader>
-
-      <SC.CreditsList
-        dangerouslySetInnerHTML={{ __html: compileCredits(credits) }}
-      />
-    </SC.CreditsWrap>
+    <SC.CreditsList
+      dangerouslySetInnerHTML={{ __html: compileCredits(credits) }}
+    />
   </SC.BiographyPage>
 )
 

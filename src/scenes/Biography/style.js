@@ -21,13 +21,4 @@ export const TextWrap = styled(components.TextWrap)`
   max-width: 55rem;
 `
 
-export const CreditsWrap = styled.div`
-  display: grid;
-  grid-gap: 0.4rem;
-`
-
-export const CreditsHeader = styled.span`
-  font-weight: 400;
-`
-
 export const CreditsList = styled.p``
