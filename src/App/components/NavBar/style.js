@@ -7,6 +7,7 @@ export const NavBar = styled.nav`
   align-items: center;
   display: flex;
   height: ${vars.navBarHeight};
+  justify-content: flex-end;
   padding: 0 1rem;
 
   ${media.mobile} {
@@ -22,25 +23,8 @@ export const NavBar = styled.nav`
 
 const linkHorizPadding = '1.5rem'
 
-export const linkStyle = css`
-  padding: 0 ${linkHorizPadding};
-`
-
-export const LeftLink = styled(NavLink)`
-  ${linkStyle};
-
-  font-weight: 400;
-  margin-right: auto;
-  text-transform: uppercase;
-
-  ${media.mobile} {
-    display: none;
-  }
-`
-
 export const linkHoverStyle = css`
-  ${linkStyle};
-
+  padding: 0 ${linkHorizPadding};
   position: relative;
 
   ::after {
