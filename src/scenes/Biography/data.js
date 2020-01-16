@@ -218,7 +218,7 @@ export const films = [
   {
     awards: [
       {
-        award: 'Best Factul Programme',
+        award: 'Best Factual Programme',
         festival: 'Royal Television Society Award',
         result: 'winner'
       },
