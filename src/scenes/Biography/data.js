@@ -508,6 +508,10 @@ export const credits = [
     film: 'Shark Island - series'
   },
   {
+    channel: 'Discovery',
+    film: "Australia's Lost Eden"
+  },
+  {
     channel: 'BBC1',
     film: 'Ten Pound Poms'
   },
