@@ -11,8 +11,8 @@ const hasAwards = film => {
     : !!film.awards
 }
 
-const Films = ({ films, tileMin }) => (
-  <SC.FilmsSection tileMin={tileMin}>
+const Films = ({ films }) => (
+  <SC.FilmsSection>
     {films.map(film => (
       <SC.FilmTile key={film.key} to={`${BASES.FILM}/${film.key}`}>
         <SC.FilmText title={`${film.title} • ${film.type}`}>
@@ -33,12 +33,7 @@ const filmPropType = PropTypes.shape({
 })
 
 Films.propTypes = {
-  films: PropTypes.arrayOf(filmPropType).isRequired,
-  tileMin: PropTypes.string
-}
-
-Films.defaultProps = {
-  tileMin: '30rem'
+  films: PropTypes.arrayOf(filmPropType).isRequired
 }
 
 export default Films
