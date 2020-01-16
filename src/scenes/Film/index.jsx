@@ -27,46 +27,54 @@ const Film = () => {
     </SC.Review>
   )
 
-  const renderSection = section => (
-    <SC.PageSection key={section.title}>
-      <SC.VideoWrap>
-        <SC.Title>{section.title}</SC.Title>
+  const renderSection = section => {
+    const hasProduction = !!section.company || !!section.production
 
-        <SC.VimeoFrame image={film.key} noVideo={!section.vimeoId}>
-          {section.vimeoId && (
-            <iframe
-              allowFullScreen={1}
-              mozallowfullscreen={1}
-              src={`https://player.vimeo.com/video/${section.vimeoId}/?title=0&byline=0&portrait=0`}
-              webkitallowfullscreen={1}
+    return (
+      <SC.PageSection key={section.title}>
+        <SC.VideoWrap>
+          <SC.Title>{section.title}</SC.Title>
+
+          <SC.VimeoFrame image={film.key} noVideo={!section.vimeoId}>
+            {section.vimeoId && (
+              <iframe
+                allowFullScreen={1}
+                mozallowfullscreen={1}
+                src={`https://player.vimeo.com/video/${section.vimeoId}/?title=0&byline=0&portrait=0`}
+                webkitallowfullscreen={1}
+              />
+            )}
+          </SC.VimeoFrame>
+
+          <SC.SubtitleWrap hasProduction={hasProduction}>
+            <SC.Blurb
+              dangerouslySetInnerHTML={{ __html: section.description }}
             />
+            {hasProduction && (
+              <SC.ProductionInfo>
+                {section.company && section.company}
+                {section.production && ` • ${section.production}`}
+              </SC.ProductionInfo>
+            )}
+          </SC.SubtitleWrap>
+        </SC.VideoWrap>
+
+        <SC.Accolades>
+          {section.awards && (
+            <SC.AwardsWrap>
+              {section.awards.map(award => renderAward(award))}
+            </SC.AwardsWrap>
           )}
-        </SC.VimeoFrame>
 
-        <SC.SubtitleWrap>
-          <SC.Blurb dangerouslySetInnerHTML={{ __html: section.description }} />
-          <SC.ProductionInfo>
-            {section.company && section.company}
-            {section.production && ` • ${section.production}`}
-          </SC.ProductionInfo>
-        </SC.SubtitleWrap>
-      </SC.VideoWrap>
-
-      <SC.Accolades>
-        {section.awards && (
-          <SC.AwardsWrap>
-            {section.awards.map(award => renderAward(award))}
-          </SC.AwardsWrap>
-        )}
-
-        {section.reviews && (
-          <SC.ReviewsWrap>
-            {section.reviews.map(review => renderReview(review))}
-          </SC.ReviewsWrap>
-        )}
-      </SC.Accolades>
-    </SC.PageSection>
-  )
+          {section.reviews && (
+            <SC.ReviewsWrap>
+              {section.reviews.map(review => renderReview(review))}
+            </SC.ReviewsWrap>
+          )}
+        </SC.Accolades>
+      </SC.PageSection>
+    )
+  }
 
   return (
     <SC.FilmPage>

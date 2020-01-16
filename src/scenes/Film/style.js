@@ -58,10 +58,10 @@ export const VimeoFrame = styled.div`
 export const SubtitleWrap = styled.div`
   display: grid;
   grid-gap: 2.5rem;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: ${props => props.hasProduction && '3fr auto'};
 
   ${media.tablet} {
-    grid-gap: 0.3rem;
+    grid-gap: 0.8rem;
     grid-template-columns: auto;
     padding-left: 0.7rem;
   }
