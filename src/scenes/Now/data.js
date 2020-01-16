@@ -93,7 +93,8 @@ export const films = [
         result: 'shortlisted'
       }
     ],
-    description: 'Romantic comedy starring John Hurt and Phyllida Law.',
+    description:
+      'Romantic comedy starring John Hurt and Phyllida Law. Supported by the Wellcome Trust.',
     key: 'lafs',
     title: 'Love At First Sight',
     type: 'Short Film',
