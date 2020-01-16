@@ -1,5 +1,5 @@
 export const text = [
-  'Following a BA in Drama from Manchester University and an MA in Film and Television from Bristol University, Michael began his career making a wide range of critically acclaimed documentaries and drama-documentaries for the BBC, ITV and Channel 4 (including seven films with producer Beryl Vertue at Hartswood), as well as dramatised adventure films for Discovery Channel.',
+  'Following a BA in Drama from Manchester University and an MA in Film and Television from Bristol University, Michael began his career making a wide range of critically acclaimed documentaries and drama-documentaries for the BBC, ITV and Channel 4 (including seven films with producer Beryl Vertue at Hartswood), as well as Dramatised adventure films for Discovery Channel.',
   "Michael was selected for the BFI London Film Festival's course for 'emerging feature film directors', won a place on the <i>Directing Actors</i> course at the NFTS, and made the shortlist (of 25 out of 1000) for the prestigious <i>BBC TV Drama Writers Programme 2017</i>. Michael also directed fourteen episodes of the hit BBC children’s drama <i>Tracy Beaker Returns</i>, winning a BAFTA and two RTS awards."
 ]
 
@@ -134,7 +134,7 @@ export const films = [
       }
     ],
     title: 'A Dinosaur In Hollywood',
-    type: 'Drama Documentary',
+    type: 'Drama documentary',
     vimeoId: '167772506'
   },
   {
@@ -173,7 +173,7 @@ export const films = [
       }
     ],
     title: 'The Welsh Great Escape',
-    type: 'Drama Documentary',
+    type: 'Drama documentary',
     vimeoId: '167788873'
   },
   {
@@ -212,7 +212,7 @@ export const films = [
       }
     ],
     title: 'Snakemaster',
-    type: 'Dramatised Adventure',
+    type: 'Dramatised adventure',
     vimeoId: '167788869'
   },
   {
@@ -235,7 +235,7 @@ export const films = [
     production: '8 x 30 min BBC2',
     subtitle: 'Series Producer & Director',
     title: 'Oz & James Drink To Britain',
-    type: 'Factual Entertainment',
+    type: 'Factual entertainment',
     vimeoId: '167894000'
   },
   {
@@ -252,7 +252,7 @@ export const films = [
     key: 'routes',
     production: '1 x 60 min BBC1',
     title: "Britain's Lost Routes with Griff Rhys Jones",
-    type: 'Factual Entertainment',
+    type: 'Factual entertainment',
     vimeoId: '384417881'
   },
   {
@@ -312,7 +312,7 @@ export const films = [
       }
     ],
     title: 'Jason, Jim & Me',
-    type: 'Drama Documentary',
+    type: 'Drama documentary',
     vimeoId: '167788865'
   },
   {
@@ -346,7 +346,7 @@ export const films = [
         source: 'The Financial Times'
       },
       {
-        review: 'A remarkable documentary series',
+        review: 'A remarkable Documentary series',
         source: 'Evening Standard'
       },
       {
@@ -359,7 +359,7 @@ export const films = [
       }
     ],
     title: 'The War Behind The Wire',
-    type: 'Documentary Series',
+    type: 'Documentary series',
     vimeoId: '167788870'
   },
   {
@@ -497,7 +497,7 @@ export const films = [
       }
     ],
     title: "Barnardo's Children",
-    type: 'Documentary Series',
+    type: 'Documentary series',
     vimeoId: '167774585'
   }
 ]

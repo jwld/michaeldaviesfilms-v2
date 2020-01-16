@@ -97,7 +97,7 @@ export const films = [
       'Romantic comedy starring John Hurt and Phyllida Law. Supported by the Wellcome Trust.',
     key: 'lafs',
     title: 'Love At First Sight',
-    type: 'Short Film',
+    type: 'Short film',
     vimeoId: '167906777'
   },
   {
@@ -146,7 +146,7 @@ export const films = [
     description: 'Comedy starring Kate Isitt.',
     key: 'wvm',
     title: "What's Virgin Mean?",
-    type: 'Short Film',
+    type: 'Short film',
     vimeoId: '167904928'
   },
   {
@@ -154,7 +154,7 @@ export const films = [
       'Romantic comedy, produced by RADA, featuring six recent graduates - and rising stars - Katie Smale, Jack Bardoe, Jamie Bogyo, Cayvan Coates, Liadan Dunlea and Jack Flammiger.',
     key: 'mirror',
     title: 'Mirror Mirror',
-    type: 'Short Film',
+    type: 'Short film',
     vimeoId: '352929055'
   }
 ]
