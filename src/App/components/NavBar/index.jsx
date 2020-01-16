@@ -12,7 +12,7 @@ const NavBar = () => (
 
     <SC.RightLink to={ROUTES.BIOGRAPHY}>Biography</SC.RightLink>
 
-    <SC.ContactLink href="mailto:info@michaeldaviesfilms.com">
+    <SC.ContactLink href="mailto:info@michaeldaviesfilms.com?subject=Hello!">
       Contact
     </SC.ContactLink>
   </SC.NavBar>
