@@ -4,7 +4,7 @@ import { components, media } from 'style'
 
 export const BiographyPage = styled(components.PageWrap)`
   display: grid;
-  grid-gap: 3rem;
+  grid-gap: 4rem;
 
   ${media.m700} {
     grid-gap: 2rem;

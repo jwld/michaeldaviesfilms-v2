@@ -5,7 +5,6 @@ import * as vars from '../variables'
 
 const PageWrap = styled.div`
   padding: 2.5rem;
-  padding-top: 0.5rem;
 
   ${media.mobile} {
     padding: 1rem;

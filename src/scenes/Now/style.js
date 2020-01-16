@@ -4,7 +4,7 @@ import { components, media, mixins } from 'style'
 
 export const NowPage = styled(components.PageWrap)`
   display: grid;
-  grid-gap: 4rem;
+  grid-gap: 6rem;
 
   ${media.m700} {
     grid-gap: 2rem;
