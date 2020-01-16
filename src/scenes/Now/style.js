@@ -31,7 +31,8 @@ export const PortraitTitleWrap = styled.div`
 
   ${media.m700} {
     align-items: center;
-    margin: 0;
+    margin-left: 0;
+    margin-top: 2rem;
   }
 `
 
