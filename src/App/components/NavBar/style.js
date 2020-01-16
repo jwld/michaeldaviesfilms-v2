@@ -23,7 +23,7 @@ export const NavBar = styled.nav`
 const linkHorizPadding = '1.5rem'
 
 export const linkStyle = css`
-  padding: 1.2rem ${linkHorizPadding};
+  padding: 0 ${linkHorizPadding};
 `
 
 export const LeftLink = styled(NavLink)`
@@ -46,7 +46,7 @@ export const linkHoverStyle = css`
   ::after {
     background: white;
     border-radius: 0.1rem;
-    bottom: 0.9rem;
+    bottom: -0.3rem;
     content: '';
     display: inline-block;
     height: 0.1rem;
