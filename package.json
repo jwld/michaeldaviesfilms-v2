@@ -34,7 +34,7 @@
   "homepage": "https://jwld.github.io/michaeldaviesfilms-v2",
   "scripts": {
     "build": "webpack --progress --config ./webpack/webpack.prod.js",
-    "deploy": "gh-pages -d public",
+    "deploy": "npm run build && gh-pages -d public",
     "dev": "webpack-dev-server --hot --config ./webpack/webpack.dev.js",
     "lint": "eslint --ext .js,.jsx src",
     "lint:fix": "eslint --fix --ext .js,.jsx src"
