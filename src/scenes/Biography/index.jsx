@@ -11,7 +11,7 @@ const compileCredits = () => {
     string += `<i>${credit.film}</i> (${credit.channel})`
 
     return (acc += string)
-  }, '<b>ADDITIONAL WORK</b> ')
+  }, '<b>ADDITIONAL CREDITS</b> • ')
 }
 
 const Biography = () => (
