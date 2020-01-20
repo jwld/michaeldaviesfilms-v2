@@ -22,13 +22,27 @@ export const PageSection = styled.section`
 export const VideoWrap = styled.div`
   align-content: flex-start;
   display: grid;
-  grid-gap: 0.5rem;
+  grid-gap: 0.4rem;
+`
+
+export const TitleWrap = styled.div`
+  display: flex;
 `
 
 export const Title = styled.h1`
   font-size: 1.7rem;
   font-style: italic;
   font-weight: 400;
+  margin-right: auto;
+`
+
+export const ProductionDesktop = styled.span`
+  align-items: flex-end;
+  display: flex;
+
+  ${media.mobile} {
+    display: none;
+  }
 `
 
 const backupStyle = css`
@@ -57,17 +71,18 @@ export const VimeoFrame = styled.div`
 
 export const SubtitleWrap = styled.div`
   display: grid;
-  grid-gap: 2.5rem;
-  grid-template-columns: ${props => props.hasProduction && '1fr auto'};
-
-  ${media.m1250} {
-    grid-template-columns: 1fr 32rem;
-  }
+  grid-gap: 1rem;
 
   ${media.tablet} {
-    grid-gap: 0.8rem;
-    grid-template-columns: auto;
     padding-left: 0.7rem;
+  }
+`
+
+export const ProductionMobile = styled.span`
+  display: none;
+
+  ${media.mobile} {
+    display: block;
   }
 `
 
@@ -77,10 +92,6 @@ export const Blurb = styled.span`
   ${media.tablet} {
     padding-left: 0;
   }
-`
-
-export const ProductionInfo = styled.span`
-  text-align: right;
 `
 
 export const Accolades = styled.div`

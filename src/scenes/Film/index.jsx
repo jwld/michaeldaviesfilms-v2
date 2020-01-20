@@ -31,12 +31,21 @@ const Film = () => {
     let description = section.type ? `<i>${section.type}</i>. ` : ''
     if (section.description) description += section.description
 
-    const hasProduction = !!section.company || !!section.production
+    const renderProdInfo = () => (
+      <>
+        {section.company && section.company}
+        {section.production && ` • ${section.production}`}
+      </>
+    )
 
     return (
       <SC.PageSection key={section.title}>
         <SC.VideoWrap>
-          <SC.Title>{section.title}</SC.Title>
+          <SC.TitleWrap>
+            <SC.Title>{section.title}</SC.Title>
+
+            <SC.ProductionDesktop>{renderProdInfo()}</SC.ProductionDesktop>
+          </SC.TitleWrap>
 
           <SC.VimeoFrame image={film.key} noVideo={!section.vimeoId}>
             {section.vimeoId && (
@@ -49,14 +58,10 @@ const Film = () => {
             )}
           </SC.VimeoFrame>
 
-          <SC.SubtitleWrap hasProduction={hasProduction}>
+          <SC.SubtitleWrap>
+            <SC.ProductionMobile>{renderProdInfo()}</SC.ProductionMobile>
+
             <SC.Blurb dangerouslySetInnerHTML={{ __html: description }} />
-            {hasProduction && (
-              <SC.ProductionInfo>
-                {section.company && section.company}
-                {section.production && ` • ${section.production}`}
-              </SC.ProductionInfo>
-            )}
           </SC.SubtitleWrap>
         </SC.VideoWrap>
 
