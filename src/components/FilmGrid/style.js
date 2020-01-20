@@ -21,7 +21,7 @@ export const FilmTile = styled(Link)`
   padding-bottom: 56.25%;
   position: relative;
 
-  ${media.m700} {
+  ${media.tablet} {
     padding-bottom: calc(56.25% + ${filmTitleHeight});
   }
 `
@@ -44,7 +44,7 @@ export const Film = styled.div`
     bottom: ${filmTitleHeight};
   }
 
-  ${media.m700} {
+  ${media.tablet} {
     bottom: ${filmTitleHeight};
   }
 `
