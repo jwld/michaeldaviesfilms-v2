@@ -133,7 +133,7 @@ export const AwardDetails = styled.div`
 
 export const Result = styled.span`
   align-self: flex-end;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
 `
 
