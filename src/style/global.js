@@ -36,7 +36,7 @@ const globalStyle = css`
 
   html {
     color: white;
-    font-family: 'Rubik', sans-serif;
+    font-family: Avenir, 'Rubik', sans-serif;
     font-size: 62.5%;
     font-weight: 300;
   }
