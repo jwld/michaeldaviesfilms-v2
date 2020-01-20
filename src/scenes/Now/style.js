@@ -52,7 +52,7 @@ export const Title = styled.span`
   ${mixins.flex};
 
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: bold;
   margin-top: 1rem;
   text-align: center;
   text-transform: uppercase;
