@@ -69,7 +69,7 @@ export const JobTitle = styled.span`
 
 export const TextWrap = styled(components.TextWrap)`
   margin-right: auto;
-  max-width: 50rem;
+  max-width: 54rem;
 
   ${media.m700} {
     margin: 0;
