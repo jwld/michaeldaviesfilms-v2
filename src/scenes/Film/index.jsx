@@ -28,7 +28,7 @@ const Film = () => {
   )
 
   const renderSection = section => {
-    let description = section.type ? `${section.type}. ` : ''
+    let description = section.type ? `<i>${section.type}</i>. ` : ''
     if (section.description) description += section.description
 
     const hasProduction = !!section.company || !!section.production
