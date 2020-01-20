@@ -15,7 +15,7 @@ export const MobileTitle = styled.span`
   ${mixins.flex};
 
   display: none;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
   padding-top: 2rem;
   text-transform: uppercase;
