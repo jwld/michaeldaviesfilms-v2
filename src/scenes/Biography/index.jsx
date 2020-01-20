@@ -16,6 +16,8 @@ const compileCredits = () => {
 
 const Biography = () => (
   <SC.BiographyPage>
+    <SC.MobileTitle>Michael Davies</SC.MobileTitle>
+
     <SC.TextWrap>
       {text.map((para, index) => (
         <p dangerouslySetInnerHTML={{ __html: para }} key={index} />
