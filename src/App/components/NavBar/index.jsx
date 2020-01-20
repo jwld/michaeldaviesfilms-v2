@@ -6,6 +6,10 @@ import * as SC from './style'
 
 const NavBar = () => (
   <SC.NavBar>
+    <SC.LeftLink exact to={ROUTES.LANDING}>
+      Michael Davies
+    </SC.LeftLink>
+
     <SC.RightLink exact to={ROUTES.LANDING}>
       Now
     </SC.RightLink>
