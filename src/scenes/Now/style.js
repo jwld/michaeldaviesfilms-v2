@@ -52,17 +52,19 @@ export const Title = styled.span`
   ${mixins.flex};
 
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 500;
   margin-top: 1rem;
   text-align: center;
+  text-transform: uppercase;
   width: 100%;
 `
 
 export const JobTitle = styled.span`
   ${mixins.flex};
 
-  font-size: 1.6rem;
-  font-style: italic;
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 2rem;
   text-align: center;
   width: 100%;
 `
