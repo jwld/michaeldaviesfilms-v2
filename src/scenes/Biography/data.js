@@ -134,7 +134,7 @@ export const films = [
       }
     ],
     title: 'A Dinosaur In Hollywood',
-    type: 'Drama documentary',
+    type: 'Drama Documentary',
     vimeoId: '167772506'
   },
   {
@@ -173,7 +173,7 @@ export const films = [
       }
     ],
     title: 'The Welsh Great Escape',
-    type: 'Drama documentary',
+    type: 'Drama Documentary',
     vimeoId: '167788873'
   },
   {
@@ -212,7 +212,7 @@ export const films = [
       }
     ],
     title: 'Snakemaster',
-    type: 'Dramatised adventure',
+    type: 'Dramatised Adventure',
     vimeoId: '167788869'
   },
   {
@@ -235,7 +235,7 @@ export const films = [
     production: '8 x 30 min BBC2',
     subtitle: 'Series Producer & Director',
     title: 'Oz & James Drink To Britain',
-    type: 'Factual entertainment',
+    type: 'Factual Entertainment',
     vimeoId: '167894000'
   },
   {
@@ -252,7 +252,7 @@ export const films = [
     key: 'routes',
     production: '1 x 60 min BBC1',
     title: "Britain's Lost Routes with Griff Rhys Jones",
-    type: 'Factual entertainment',
+    type: 'Factual Entertainment',
     vimeoId: '384417881'
   },
   {
@@ -312,7 +312,7 @@ export const films = [
       }
     ],
     title: 'Jason, Jim & Me',
-    type: 'Drama documentary',
+    type: 'Drama Documentary',
     vimeoId: '167788865'
   },
   {
@@ -359,7 +359,7 @@ export const films = [
       }
     ],
     title: 'The War Behind The Wire',
-    type: 'Documentary series',
+    type: 'Documentary Series',
     vimeoId: '167788870'
   },
   {
@@ -497,7 +497,7 @@ export const films = [
       }
     ],
     title: "Barnardo's Children",
-    type: 'Documentary series',
+    type: 'Documentary Series',
     vimeoId: '167774585'
   }
 ]
