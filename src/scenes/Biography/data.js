@@ -230,7 +230,7 @@ export const films = [
     ],
     company: 'RDF',
     description:
-      "Oz Clarke and James May's alcohol-fuelled road trip bromance deepens in the last and most successful of the series. Average audience 3.5 million.",
+      "Oz Clarke and James May's alcohol-fuelled road trip bromance deepens in the last and most successful series. Average audience 3.5 million.",
     key: 'drink',
     production: '8 x 30 min BBC2',
     subtitle: 'Series Producer & Director',
@@ -346,7 +346,7 @@ export const films = [
         source: 'The Financial Times'
       },
       {
-        review: 'A remarkable Documentary series',
+        review: 'A remarkable documentary series',
         source: 'Evening Standard'
       },
       {
